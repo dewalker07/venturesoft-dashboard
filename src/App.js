@@ -1,0 +1,34 @@
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Login  from './Login/Login';
+import Dashboard from './Dashboard/Dashboard';
+import Project from './Project/Project';
+import Report from './Report/Report';
+import ResetPassword from './Login/ResetPassword';
+import Profile from './Profile/Profile';
+import Settings from './Settings/Settings';
+
+import './App.css';
+
+
+function App() {
+  return (
+    <div className="container-fluid">
+      <BrowserRouter>
+            <Switch>
+              <Route exact path="/" name="Agent login" component={Login} />
+              <Route exact path="/login/resetpassword" name="Reset Password" component={ResetPassword} />
+              <Route exact path="/dashboard" name="Dashboard" component={Dashboard} />
+              <Route exact path="/project" name="Project" component={Project} />
+              <Route exact path="/report" name="Report" component={Report} />
+              <Route exact path="/profile" name="Profile" component={Profile} />
+              <Route exact path="/settings" name="Settings" component={Settings} />
+            </Switch>
+      </BrowserRouter>
+    </div>
+       
+  );
+}
+
+export default App;

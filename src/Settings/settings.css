@@ -1,0 +1,46 @@
+.MuiRadio-colorSecondary.Mui-checked {
+    color: #00b1f5 !important;
+}
+
+.MuiFormGroup-root {
+    display: inline-block !important;
+    margin-left: 36px;
+    margin-top: 8px;
+}
+
+.twofactor-auth {
+    display: inline-flex;
+}
+
+.pd-twofactor {
+    padding: 10px;
+}
+
+label {
+    margin-bottom: 24px;
+    margin-top: 24px;
+    font-weight: 500;
+}
+
+input {
+    max-width: 351px;
+}
+
+.reset {
+    margin: 26px 0;
+    padding: 1px 37px;
+    margin-left: 261px;
+}
+
+.br-bottom {
+    padding: 10px;
+    border-bottom: 1px solid #8080806e;
+}
+
+.settings-form {
+    box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3);
+    padding: 27px;
+    background: #2929291c;
+    border-radius: 12px;
+    margin-top: 55px;
+}
