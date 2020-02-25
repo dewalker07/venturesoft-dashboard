@@ -1,0 +1,9 @@
+.arrow {
+    color: #fff;
+    transition: 0.3s;
+    right: 0;
+}
+
+.arrowActive {
+    transform: rotate(180deg);
+}

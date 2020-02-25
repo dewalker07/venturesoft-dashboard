@@ -1,5 +1,6 @@
 .bg-light {
     border-bottom: 1px solid #80808045;
+    background-color: #f8f9fa30!important;
     padding: 0;
 }
 
@@ -22,6 +23,7 @@
 .form-group {
     margin-top: 20px;
     margin-right: 16px;
+    margin-left: 16px;
 }
 
 .input-group-text {
@@ -108,4 +110,9 @@
     text-decoration-line: none;
     color: #000;
     font-family: Poppins;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #38a1ff;
 }

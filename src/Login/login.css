@@ -19,17 +19,17 @@ code {
 }
 
 .login-form {
-    box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3);
-    padding: 57px;
-    background: #2929291c;
+    padding: 1px 46px 3px 46px;
+    background: #5b826008;
+    border: 1px solid #8080803b;
     border-radius: 12px;
     margin-top: 55px;
 }
 
 .resetpwd-form {
-    box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3);
-    padding: 30px 48px;
-    background: #2929291c;
+    padding: 2px 28px;
+    background: #5b826008;
+    border: 1px solid #8080803b;
     border-radius: 12px;
     margin-top: 55px;
 }
@@ -145,12 +145,17 @@ button.outline {
 
 .btn-primary {
     padding: 4px 26px;
-    background-color: #3f99f9;
-    border-color: #3f99f9;
+    background-color: #1aabff;
+    border-color: #1aabff;
+}
+.btn-primary:hover {
+    padding: 4px 26px;
+    background-color: #1aabff !important;
+    border-color: #1aabff !important;
 }
 
 .forgot-pwd {
-    margin-left: 80px;
+    margin-left: 17%;
 }
 
 .submit_button {

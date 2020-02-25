@@ -24,6 +24,10 @@ import { NavLink as RRNavLink } from 'react-router-dom';
 import FormikDatePicker from './FormikDatePicker';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import Selectbox from './Select';
+import countryOptions from './countries';
+import stateOptions from './states';
+import cityOptions from './cities';
 
 import Header from '../Header/Header';
 import ProfileHeader from './ProfileHeader';
@@ -37,7 +41,7 @@ import './profile.css';
 class Profile extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { isOpen: false }
+        this.state = { isOpen: false, country: '' }
     }
     
     toggleDropdown = () => {
@@ -45,9 +49,13 @@ class Profile extends React.Component {
           isOpen: !prevState.isOpen,
         }));
       }
-    
+      selectCountry (val) {
+        this.setState({ country: val });
+      }
+
     render() { 
         const {isOpen} = this.state;
+        const { country } = this.state;
         
         return ( 
             <div>
@@ -116,24 +124,24 @@ class Profile extends React.Component {
 
                         <div className="form-group inline-block">
                             <label htmlFor="country" className="col-form-label">Country</label>
-                            <Field name="country" type="number" className={'form-control' + (errors.phonenumber && touched.phonenumber ? ' is-invalid' : '')} />
+                            <Field name={"country"} options={countryOptions} component={Selectbox} />
                             <ErrorMessage name="country" component="div" className="invalid-feedback" />
                         </div>
 
                         <div className="form-group inline-block">
                             <label htmlFor="state" className="col-form-label">State</label>
-                            <Field name="state" type="number" className={'form-control' + (errors.phonenumber && touched.phonenumber ? ' is-invalid' : '')} />
+                            <Field name={"state"} options={stateOptions} component={Selectbox} />
                             <ErrorMessage name="state" component="div" className="invalid-feedback" />
                         </div>
 
                         <div className="form-group inline-block">
                             <label htmlFor="city" className="col-form-label">City</label>
-                            <Field name="city" type="number" className={'form-control' + (errors.phonenumber && touched.phonenumber ? ' is-invalid' : '')} />
+                            <Field name={"city"} options={cityOptions} component={Selectbox} />
                             <ErrorMessage name="city" component="div" className="invalid-feedback" />
                         </div>
                         <div className="form-group inline-block">
                             <label htmlFor="address" className="col-form-label">Address</label>
-                            <Field name="address" type="number" className={'form-control' + (errors.phonenumber && touched.phonenumber ? ' is-invalid' : '')} />
+                            <Field name="address" type="text" className={'form-control' + (errors.phonenumber && touched.phonenumber ? ' is-invalid' : '')} />
                             <ErrorMessage name="address" component="div" className="invalid-feedback" />
                         </div>
                         <div className="form-group inline-block">

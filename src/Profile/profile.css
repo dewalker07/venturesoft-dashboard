@@ -41,6 +41,9 @@ button+button {
 .inline-block {
     display: inline-block;
     margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .fa-male:before,
@@ -61,11 +64,17 @@ button+button {
 }
 
 .profile-form {
-    box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3);
-    padding: 27px;
-    background: #2929291c;
+
+    /* box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3); */
+    padding: 20px;
+    background: #9cdaa41c;
     border-radius: 12px;
     margin-top: 55px;
+    margin-bottom: 55px;
+}
+.select-form {
+    padding: 1px 108px 1px 10px;
+    
 }
 
 .MuiIconButton-root {
@@ -88,5 +97,9 @@ button+button {
 .MuiInputBase-input {
     background: #fff !important;
     border: 1px solid #ced4da !important;
-    padding: 10px 0 7px !important;
+
+    padding: 10px 0 7px 7px !important;
+}
+.css-b8ldur-Input {
+    width: 170px !important;
 }

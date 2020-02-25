@@ -29,7 +29,7 @@ input {
 .reset {
     margin: 26px 0;
     padding: 1px 37px;
-    margin-left: 261px;
+    margin-left: 205px;
 }
 
 .br-bottom {
@@ -38,9 +38,12 @@ input {
 }
 
 .settings-form {
-    box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3);
-    padding: 27px;
-    background: #2929291c;
+    padding: 10px 44px 10px 44px;
+    border: 1px solid #8080803b;
+    background: #9cdaa41c;
     border-radius: 12px;
     margin-top: 55px;
+}
+.MuiTypography-root {
+    padding-left: 6px;
 }
