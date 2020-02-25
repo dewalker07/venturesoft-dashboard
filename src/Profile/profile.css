@@ -64,10 +64,9 @@ button+button {
 }
 
 .profile-form {
-
-    /* box-shadow: 0 30px 60px 0 rgba(109, 107, 107, 0.3); */
     padding: 20px;
     background: #9cdaa41c;
+    border: 1px solid #8080803b;
     border-radius: 12px;
     margin-top: 55px;
     margin-bottom: 55px;
