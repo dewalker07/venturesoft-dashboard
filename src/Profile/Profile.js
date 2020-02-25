@@ -115,7 +115,7 @@ class Profile extends React.Component {
                             <i className="fas fa-female"></i>Female
                             </button>
                             <ErrorMessage name="gender" component="div" className="invalid-feedback" />
-                            </div>
+                        </div>
                         
                         <div className="form-group inline-block">
                             <label htmlFor="dateofbirth" className="col-form-label">Date Of Birth</label>
