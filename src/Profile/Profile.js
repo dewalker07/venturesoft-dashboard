@@ -124,19 +124,19 @@ class Profile extends React.Component {
 
                         <div className="form-group inline-block">
                             <label htmlFor="country" className="col-form-label">Country</label>
-                            <Field name={"country"} options={countryOptions} component={Selectbox} />
+                            <Field name={"country"} placeholder="Select Country" options={countryOptions} component={Selectbox} />
                             <ErrorMessage name="country" component="div" className="invalid-feedback" />
                         </div>
 
                         <div className="form-group inline-block">
                             <label htmlFor="state" className="col-form-label">State</label>
-                            <Field name={"state"} options={stateOptions} component={Selectbox} />
+                            <Field name={"state"} placeholder="Select State" options={stateOptions} component={Selectbox} />
                             <ErrorMessage name="state" component="div" className="invalid-feedback" />
                         </div>
 
                         <div className="form-group inline-block">
                             <label htmlFor="city" className="col-form-label">City</label>
-                            <Field name={"city"} options={cityOptions} component={Selectbox} />
+                            <Field name={"city"} placeholder="Select City" options={cityOptions} component={Selectbox} />
                             <ErrorMessage name="city" component="div" className="invalid-feedback" />
                         </div>
                         <div className="form-group inline-block">
