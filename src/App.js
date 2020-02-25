@@ -11,7 +11,6 @@ import Settings from './Settings/Settings';
 
 import './App.css';
 
-
 function App() {
   return (
     <div className="container-fluid">
