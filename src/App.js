@@ -18,7 +18,7 @@ import './App.css';
 function App() {
   return (
     <div className="container-fluid">
-      <BrowserRouter>
+      <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
             <Switch>
               <Route exact path="/" name="Agent login" component={Login} />
               <Route exact path="/login/resetpassword" name="Reset Password" component={ResetPassword} />
