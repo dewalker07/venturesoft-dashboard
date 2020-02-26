@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/dewalker07/venturesoft-dashboard/static/css/main.05632172.chunk.css",
-    "main.js": "/dewalker07/venturesoft-dashboard/static/js/main.ed3de0d1.chunk.js",
-    "main.js.map": "/dewalker07/venturesoft-dashboard/static/js/main.ed3de0d1.chunk.js.map",
-    "runtime-main.js": "/dewalker07/venturesoft-dashboard/static/js/runtime-main.5608827b.js",
-    "runtime-main.js.map": "/dewalker07/venturesoft-dashboard/static/js/runtime-main.5608827b.js.map",
-    "static/js/2.40a93751.chunk.js": "/dewalker07/venturesoft-dashboard/static/js/2.40a93751.chunk.js",
-    "static/js/2.40a93751.chunk.js.map": "/dewalker07/venturesoft-dashboard/static/js/2.40a93751.chunk.js.map",
-    "index.html": "/dewalker07/venturesoft-dashboard/index.html",
-    "precache-manifest.3477dcfaa7c67dc004884e2909114e10.js": "/dewalker07/venturesoft-dashboard/precache-manifest.3477dcfaa7c67dc004884e2909114e10.js",
-    "service-worker.js": "/dewalker07/venturesoft-dashboard/service-worker.js",
-    "static/css/main.05632172.chunk.css.map": "/dewalker07/venturesoft-dashboard/static/css/main.05632172.chunk.css.map",
-    "static/js/2.40a93751.chunk.js.LICENSE.txt": "/dewalker07/venturesoft-dashboard/static/js/2.40a93751.chunk.js.LICENSE.txt",
-    "static/media/logo.png": "/dewalker07/venturesoft-dashboard/static/media/logo.879dafbc.png"
+    "main.css": "/venturesoft-dashboard/static/css/main.05632172.chunk.css",
+    "main.js": "/venturesoft-dashboard/static/js/main.922025f4.chunk.js",
+    "main.js.map": "/venturesoft-dashboard/static/js/main.922025f4.chunk.js.map",
+    "runtime-main.js": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js",
+    "runtime-main.js.map": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js.map",
+    "static/js/2.40a93751.chunk.js": "/venturesoft-dashboard/static/js/2.40a93751.chunk.js",
+    "static/js/2.40a93751.chunk.js.map": "/venturesoft-dashboard/static/js/2.40a93751.chunk.js.map",
+    "index.html": "/venturesoft-dashboard/index.html",
+    "precache-manifest.91346793bbc5594b174958d27d1368e4.js": "/venturesoft-dashboard/precache-manifest.91346793bbc5594b174958d27d1368e4.js",
+    "service-worker.js": "/venturesoft-dashboard/service-worker.js",
+    "static/css/main.05632172.chunk.css.map": "/venturesoft-dashboard/static/css/main.05632172.chunk.css.map",
+    "static/js/2.40a93751.chunk.js.LICENSE.txt": "/venturesoft-dashboard/static/js/2.40a93751.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/venturesoft-dashboard/static/media/logo.879dafbc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5608827b.js",
+    "static/js/runtime-main.49ee9395.js",
     "static/js/2.40a93751.chunk.js",
     "static/css/main.05632172.chunk.css",
-    "static/js/main.ed3de0d1.chunk.js"
+    "static/js/main.922025f4.chunk.js"
   ]
 }
