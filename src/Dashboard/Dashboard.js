@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Badge,
   Button,
@@ -35,6 +36,7 @@ class Dashboard extends Component {
     this.state = {
       dropdownOpen: false,
       radioSelected: 2,
+      search: ''
     };
   }
 
@@ -80,7 +82,7 @@ class Dashboard extends Component {
                   <tr>
                    
                     <td>
-                      <div>Project X</div>
+                      <div><Link className="pr-1" to="/production">Project X</Link></div>
                     </td>
                     <td>
                       <div>9852</div>

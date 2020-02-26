@@ -54,9 +54,12 @@ button+button {
 .btn-male,
 .btn-female {
     padding: 9px 14px;
-    background-color: #fff;
     color: #24292e;
+    background: none;
     margin: 0;
+}
+.btn-male:focus, .btn-female:focus {
+    background-color: #fff;
 }
 
 .btn-female {

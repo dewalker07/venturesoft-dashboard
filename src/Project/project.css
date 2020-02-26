@@ -1,3 +1,35 @@
 .red {
     color: #ff0000;
 }
+.role {
+    padding: 26px 43px;
+    font-size: 14px;
+}
+.pr-input {
+    max-width: 493px;
+}
+.production-form {
+    padding: 0;
+    margin-top: 55px;
+}
+textarea.form-control {
+    height: 201px;
+    border-radius: 6px;
+}
+.comment-textbox {
+    height: 93px !important;
+}
+.btn-submit-ans {
+    padding: 5px 8px;
+    float: right;
+}
+
+.btn-startwork, .btn-stopwork {
+    background: #fff;
+    border: 1px solid #1ab5ff;
+    padding: 5px 12px;
+}
+
+.btn-start:hover, .btn-stop:hover {
+    text-decoration: none;
+}

@@ -23,3 +23,13 @@
     background: #00800047;
     color: #008000;
 }
+
+.pr-1 {
+    color: #212529;;
+    text-decoration: none;
+}
+
+.pr-1:hover {
+    color: #212529;;
+    text-decoration: none;
+}

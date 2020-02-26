@@ -8,6 +8,10 @@ import Report from './Report/Report';
 import ResetPassword from './Login/ResetPassword';
 import Profile from './Profile/Profile';
 import Settings from './Settings/Settings';
+import Production from './Project/Production';
+import Review from './Project/Review';
+import Productionx from './Project/Productionx';
+import Reviewx from './Project/Reviewx';
 
 import './App.css';
 
@@ -23,6 +27,10 @@ function App() {
               <Route exact path="/report" name="Report" component={Report} />
               <Route exact path="/profile" name="Profile" component={Profile} />
               <Route exact path="/settings" name="Settings" component={Settings} />
+              <Route exact path="/production" name="Production" component={Production} />
+              <Route exact path="/review" name="Review" component={Review} />
+              <Route exact path="/projectx" name="Productionx" component={Productionx} />
+              <Route exact path="/reviewx" name="Reviewx" component={Reviewx} />
             </Switch>
       </BrowserRouter>
     </div>

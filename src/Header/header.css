@@ -104,6 +104,7 @@
     text-decoration-line: none;
     color: #000;
     font-family: Poppins;
+    padding-left: 10px;
 }
 
 .btn-logout:hover {
