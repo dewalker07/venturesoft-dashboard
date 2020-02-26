@@ -36,7 +36,6 @@ class Dashboard extends Component {
     this.state = {
       dropdownOpen: false,
       radioSelected: 2,
-      search: ''
     };
   }
 

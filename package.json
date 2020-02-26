@@ -1,5 +1,6 @@
 {
     "name": "venturesoftglobal-dashboard",
+    "homepage": "https://github.com/dewalker07/venturesoft-dashboard",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -28,12 +29,16 @@
         "react-search-box": "^2.0.2",
         "react-search-field": "^1.0.0",
         "react-select": "^3.0.8",
+        "react-table": "^7.0.0-rc.16",
         "reactstrap": "^8.4.1",
+        "semantic-ui-react": "^0.88.2",
         "yup": "^0.28.1"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
