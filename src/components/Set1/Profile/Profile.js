@@ -32,7 +32,7 @@ import cityOptions from './cities';
 import Header from '../Header/Header';
 import ProfileHeader from './ProfileHeader';
 
-import logo from '../assets/logo.png';
+import logo from '../../../assets/logo.png';
 
 import './profile.css';
 

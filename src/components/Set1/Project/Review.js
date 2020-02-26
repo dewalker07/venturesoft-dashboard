@@ -27,8 +27,6 @@ import * as Yup from 'yup';
 import Header from '../Header/Header';
 import ProjectHeader from './ProjectHeader';
 
-import logo from '../assets/logo.png';
-
 import './project.css';
 
 

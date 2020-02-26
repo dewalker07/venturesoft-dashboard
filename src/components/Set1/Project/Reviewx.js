@@ -27,16 +27,14 @@ import * as Yup from 'yup';
 import Header from '../Header/Header';
 import ProjectHeader from './ProjectHeader';
 
-import logo from '../assets/logo.png';
-
 import './project.css';
 
 
 
-class Productionx extends React.Component {
+class Reviewx extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { isOpen: false }
+        this.state = { isOpen: false, country: '' }
     }
     
     toggleDropdown = () => {
@@ -44,10 +42,13 @@ class Productionx extends React.Component {
           isOpen: !prevState.isOpen,
         }));
       }
-      
+      selectCountry (val) {
+        this.setState({ country: val });
+      }
 
     render() { 
         const {isOpen} = this.state;
+        const { country } = this.state;
         
         return ( 
             <div>
@@ -71,7 +72,7 @@ class Productionx extends React.Component {
            <Row>
                 <Col md="2"></Col>
                 <Col md="8" className="production-form">
-           <Formik
+                <Formik
                 initialValues={{
                     imageurl: '',
                     taskid: '',
@@ -143,4 +144,4 @@ class Productionx extends React.Component {
     }
 }
 
-export default Productionx;
+export default Reviewx;

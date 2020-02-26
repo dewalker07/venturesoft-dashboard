@@ -2,18 +2,23 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Login  from './Login/Login';
-import Dashboard from './Dashboard/Dashboard';
-import Project from './Project/Project';
-import Report from './Report/Report';
+import Dashboard from './components/Set1/Dashboard/Dashboard';
+import Project from './components/Set1/Project/Project';
+import Report from './components/Set1/Report/Report';
 import ResetPassword from './Login/ResetPassword';
-import Profile from './Profile/Profile';
-import Settings from './Settings/Settings';
-import Production from './Project/Production';
-import Review from './Project/Review';
-import Productionx from './Project/Productionx';
-import Reviewx from './Project/Reviewx';
+import Profile from './components/Set1/Profile/Profile';
+import Settings from './components/Set1/Settings/Settings';
+import Production from './components/Set1/Project/Production';
+import Review from './components/Set1/Project/Review';
+import Productionx from './components/Set1/Project/Productionx';
+import Reviewx from './components/Set1/Project/Reviewx';
+
+import DashboardTwo from './components/Set2/Dashboard/DashboardTwo';
+import ProjectSupervisor from './components/Set2/Project/Project';
+import ReportSupervisor from './components/Set2/Reports/Report';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -31,6 +36,10 @@ function App() {
               <Route exact path="/review" name="Review" component={Review} />
               <Route exact path="/projectx" name="Productionx" component={Productionx} />
               <Route exact path="/reviewx" name="Reviewx" component={Reviewx} />
+
+              <Route exact path="/supervisor" name="DashboardTwo" component={DashboardTwo} />
+              <Route exact path="/project/supervisor" name="ProjectSupervisor" component={ProjectSupervisor} />
+              <Route exact path="/report/supervisor" name="ReportSupervisor" component={ReportSupervisor} />
             </Switch>
       </BrowserRouter>
     </div>

@@ -40,8 +40,8 @@ button+button {
 
 .inline-block {
     display: inline-block;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 32px !important;
+    margin-right: 32px !important;
     margin-top: 0;
     margin-bottom: 0;
 }
