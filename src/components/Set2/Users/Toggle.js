@@ -1,7 +1,9 @@
 import { Component } from "react";
 
 class Toggle extends Component {
-  state = { on: true };
+  state = { 
+    on: false 
+  };
 
   onToggle = () => {
     this.setState(

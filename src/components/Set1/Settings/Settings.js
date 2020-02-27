@@ -85,6 +85,7 @@ class Settings extends React.Component {
                         onBlur={handleBlur}
                         onChange={handleChange}
                         value={values.password}
+                        className="pwd"
                         />
                         <span className="error" style={{ color: "red" }}>
                         {errors.password}
@@ -97,6 +98,7 @@ class Settings extends React.Component {
                         onBlur={handleBlur}
                         onChange={handleChange}
                         value={values.changepassword}
+                        className="pwd"
                         />
                         <span className="error" style={{ color: "red" }}>
                         {errors.changepassword}
