@@ -21,24 +21,23 @@ import {
   InputGroupAddon
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
-import FormikDatePicker from './FormikDatePicker';
+import FormikDatePicker from '../../Set1/Profile/FormikDatePicker';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import Selectbox from './Select';
-import countryOptions from './countries';
-import stateOptions from './states';
-import cityOptions from './cities';
+import Selectbox from '../../Set1/Profile/Select';
+import countryOptions from '../../Set1/Profile/countries';
+import stateOptions from '../../Set1/Profile/states';
+import cityOptions from '../../Set1/Profile/cities';
+import FormikRadioGroup from '../../Set1/Settings/FormikRadioGroup';
 
 import Header from '../Header/Header';
-import ProfileHeader from './ProfileHeader';
-
-import logo from '../../../assets/logo.png';
+import ProHeader from './ProHeader';
 
 import './profile.css';
 
 
 
-class Profile extends React.Component {
+class SupervisorSettings extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -60,10 +59,10 @@ class Profile extends React.Component {
         return ( 
             <div>
             <Header />
-            <ProfileHeader />
+            <ProHeader />
            <Row>
-                <Col md="3"></Col>
-                <Col md="6" className="profile-form">
+                <Col md="2"></Col>
+                <Col md="8" className="profile-form">
            <Formik
                 initialValues={{
                     // email: '',
@@ -82,10 +81,44 @@ class Profile extends React.Component {
                     alert('SUCCESS!! :-)\n\n' + JSON.stringify(fields, null, 4))
                 }}
             >
-                {({ errors, status, touched }) => (
+                {({ values, handleSubmit, handleChange, handleBlur,errors, status, touched }) => (
                     <Form>
-                        
-                        <div className="form-row">
+                        <label htmlFor="passowrd">New Password</label>
+                        <input
+                        type="password"
+                        name="password"
+                        onBlur={handleBlur}
+                        onChange={handleChange}
+                        value={values.password}
+                        className="pwd"
+                        />
+                        <span className="error" style={{ color: "red" }}>
+                        {errors.password}
+                        </span>
+
+                        <label htmlFor="passowrd">Confirm Password</label>
+                        <input
+                        type="password"
+                        name="changepassword"
+                        onBlur={handleBlur}
+                        onChange={handleChange}
+                        value={values.changepassword}
+                        className="pwd"
+                        />
+                        <span className="error" style={{ color: "red" }}>
+                        {errors.changepassword}
+                        </span>
+                        <div className="br-bottom"></div>
+                        <div className="twofactor-auth">
+                        <label htmlFor="twofactorauthentication" className="pd-twofactor">Two Factor Authentication</label>
+                        <Field
+                            name="radioGroup"
+                            options={["Enable", "Disable"]}
+                            component={FormikRadioGroup}
+                        />
+                        <div><button className="reset">Reset</button></div>
+                        </div>
+                       <div className="form-row">
                         <div className="col-6">
                             <label htmlFor="firstname" className="col-form-label">First Name</label>
                             <Field name="firstname" type="text" className={'form-control' + (errors.firstname && touched.firstname ? ' is-invalid' : '')} />
@@ -160,15 +193,16 @@ class Profile extends React.Component {
                         <div className="col-6"></div>
                         </div>
                         
+                        
                     </Form>
                 )}
             </Formik>
             </Col>
-            <Col md="3"></Col>
+            <Col md="2"></Col>
             </Row>
            </div>
          );
     }
 }
 
-export default Profile;
+export default SupervisorSettings;

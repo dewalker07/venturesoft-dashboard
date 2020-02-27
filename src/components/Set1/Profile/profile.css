@@ -18,7 +18,7 @@
 }
 
 .ml-left {
-    margin-left: 57%;
+    margin-left: 64.5%;
 }
 
 button+button {
@@ -67,7 +67,7 @@ button+button {
 }
 
 .profile-form {
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
     background: #9cdaa41c;
     border: 1px solid #8080803b;
     border-radius: 12px;
@@ -104,4 +104,8 @@ button+button {
 }
 .css-b8ldur-Input {
     width: 170px !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+    background-color: #fff !important;
 }

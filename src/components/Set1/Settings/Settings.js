@@ -111,7 +111,7 @@ class Settings extends React.Component {
                             options={["Enable", "Disable"]}
                             component={FormikRadioGroup}
                         />
-                        <button className="reset">Reset</button>
+                        <div><button className="reset">Reset</button></div>
                         </div>
                     </form>
                     );

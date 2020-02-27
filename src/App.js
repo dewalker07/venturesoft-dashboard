@@ -18,6 +18,9 @@ import ProjectSupervisor from './components/Set2/Project/Project';
 import ReportSupervisor from './components/Set2/Reports/Report';
 import User from './components/Set2/Users/User';
 
+import Role from './components/Set2/Profile/Role';
+import SupervisorSettings from './components/Set2/Profile/Settings';
+
 import './App.css';
 
 
@@ -42,6 +45,9 @@ function App() {
               <Route exact path="/project/supervisor" name="ProjectSupervisor" component={ProjectSupervisor} />
               <Route exact path="/report/supervisor" name="ReportSupervisor" component={ReportSupervisor} />
               <Route exact path="/users" name="User" component={User} />
+
+              <Route exact path="/role" name="Role" component={Role} />
+              <Route exact path="/supervisor/settings" name="SupervisorSettings" component={SupervisorSettings} />
 
             </Switch>
       </BrowserRouter>

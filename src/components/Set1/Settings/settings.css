@@ -5,15 +5,10 @@
 .MuiFormGroup-root {
     display: inline-block !important;
     margin-left: 36px;
-    margin-top: 8px;
 }
 
 .twofactor-auth {
     display: inline-flex;
-}
-
-.pd-twofactor {
-    padding: 10px;
 }
 
 label {
@@ -27,8 +22,7 @@ label {
 } */
 
 .reset {
-    margin: 26px 0;
-    padding: 1px 37px;
+    padding: 4px 37px;
     margin-left: 205px;
 }
 

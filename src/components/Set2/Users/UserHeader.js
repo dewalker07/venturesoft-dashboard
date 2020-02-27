@@ -65,7 +65,7 @@ class UserHeader extends React.Component {
                
                 
                 </Nav>
-                <Nav className="ml-left">
+                <Nav className="ml-user-left">
                 <div className="toggle">
                   <div className="toggle-active">Active</div>
                   <Toggle onToggle={onToggle}>
