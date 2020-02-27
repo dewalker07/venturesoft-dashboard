@@ -24,3 +24,9 @@
     text-transform: uppercase;
     font-weight: 600;
 }
+.btn-ok {
+    padding: 6px 32px;
+}
+.btn-ok a {
+    color: #fff;
+}

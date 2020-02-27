@@ -18,6 +18,7 @@ import ProjectSupervisor from './components/Set2/Project/Project';
 import ReportSupervisor from './components/Set2/Reports/Report';
 import User from './components/Set2/Users/User';
 import CreateUser from './components/Set2/Users/CreateUser';
+import UserManage from './components/Set2/Users/UserManage';
 
 import Role from './components/Set2/Profile/Role';
 import SupervisorSettings from './components/Set2/Profile/Settings';
@@ -47,6 +48,7 @@ function App() {
               <Route exact path="/report/supervisor" name="ReportSupervisor" component={ReportSupervisor} />
               <Route exact path="/users" name="User" component={User} />
               <Route exact path="/create/user" name="CreateUser" component={CreateUser} />
+              <Route exact path="/usermanage" name="UserManage" component={UserManage} />
 
               <Route exact path="/role" name="Role" component={Role} />
               <Route exact path="/supervisor/settings" name="SupervisorSettings" component={SupervisorSettings} />
