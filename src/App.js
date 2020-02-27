@@ -16,6 +16,7 @@ import Reviewx from './components/Set1/Project/Reviewx';
 import DashboardTwo from './components/Set2/Dashboard/DashboardTwo';
 import ProjectSupervisor from './components/Set2/Project/Project';
 import ReportSupervisor from './components/Set2/Reports/Report';
+import User from './components/Set2/Users/User';
 
 import './App.css';
 
@@ -40,6 +41,8 @@ function App() {
               <Route exact path="/supervisor" name="DashboardTwo" component={DashboardTwo} />
               <Route exact path="/project/supervisor" name="ProjectSupervisor" component={ProjectSupervisor} />
               <Route exact path="/report/supervisor" name="ReportSupervisor" component={ReportSupervisor} />
+              <Route exact path="/users" name="User" component={User} />
+
             </Switch>
       </BrowserRouter>
     </div>
