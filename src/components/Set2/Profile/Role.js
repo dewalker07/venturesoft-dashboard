@@ -5,7 +5,7 @@ import {
     Col, 
     Row   
   } from 'reactstrap';
-
+import { Checkbox } from 'semantic-ui-react'
 import Header from '../Header/Header';
 import ProHeader from './ProHeader';
 
@@ -20,8 +20,8 @@ class Role extends Component {
               <Header />
               <ProHeader />
               <Row>
-                <Col md="3"></Col>
-                <Col md="6" className="profile-form">
+                <Col md="4"></Col>
+                <Col md="4" className="profile-form">
            <Formik
                 initialValues={{
                     // email: '',
@@ -42,17 +42,17 @@ class Role extends Component {
             >
                 {({ errors, status, touched }) => (
                     <Form>
-                        
                         <div className="form-row">
-                           
-                           
-                        </div>
-                        
+                        <Checkbox label='Production Agent' /> 
+                        </div> 
+                        <div className="form-row">
+                        <Checkbox label='Review Agent' /> 
+                        </div>           
                     </Form>
                 )}
             </Formik>
             </Col>
-            <Col md="3"></Col>
+            <Col md="4"></Col>
             </Row>
             </div>
          );

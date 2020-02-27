@@ -6,6 +6,7 @@
 
 .has-search .form-control {
     padding-left: 2.375rem;
+    font-size: 16px;
 }
 
 .has-search .form-control-feedback {
@@ -32,6 +33,7 @@
 
 .text-body {
     color: #fff !important;
+    font-size: 16px;
 }
 
 .btn-secondary {
@@ -67,7 +69,7 @@
 }
 
 .ml-auto {
-    margin-left: 22%!important;
+    margin-left: 28%!important;
 }
 
 .ml {
@@ -105,6 +107,7 @@
     color: #000;
     font-family: Poppins;
     padding-left: 10px;
+    font-size: 16px;
 }
 
 .btn-logout:hover {
