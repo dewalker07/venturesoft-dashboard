@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+/*Login Authentication*/
 import Login  from './Login/Login';
+import ResetPassword from './Login/ResetPassword';
+import ResetInstructions from './Login/ResetInstructions';
+/*Set1 Dashboard components*/
 import Dashboard from './components/Set1/Dashboard/Dashboard';
 import Project from './components/Set1/Project/Project';
 import Report from './components/Set1/Report/Report';
-import ResetPassword from './Login/ResetPassword';
 import Profile from './components/Set1/Profile/Profile';
 import Settings from './components/Set1/Settings/Settings';
 import Production from './components/Set1/Project/Production';
@@ -33,6 +35,7 @@ function App() {
             <Switch>
               <Route exact path="/" name="Agent login" component={Login} />
               <Route exact path="/login/resetpassword" name="Reset Password" component={ResetPassword} />
+              <Route exact path="/resetpassword/instructions" name="Reset Instructions" component={ResetInstructions} />
               <Route exact path="/dashboard" name="Dashboard" component={Dashboard} />
               <Route exact path="/project" name="Project" component={Project} />
               <Route exact path="/report" name="Report" component={Report} />
