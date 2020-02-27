@@ -75,7 +75,7 @@ class UserHeader extends React.Component {
                     </div>
                     )}
                 </Toggle></div>
-                  <button className="btn-save">Create User</button>
+                  <button className="btn-save"><Link to="/create/user">Create User</Link></button>
                 </Nav>
            </Navbar>
            

@@ -62,7 +62,7 @@ class Login extends React.Component {
                         </div>
                         
                         <div className="form-group">
-                            <button type="submit" className="btn btn-primary mr-2" to="/header">Sign In</button>
+                            <button type="submit" className="btn btn-primary mr-2">Sign In</button>
                             {/* <button type="reset" className="btn btn-secondary">Reset</button> */}
 
                             <Link to="/login/resetpassword" className="forgot-pwd">Forgot password</Link>
