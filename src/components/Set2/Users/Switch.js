@@ -18,13 +18,12 @@ const Style = styled.div`
     position: relative;
     background: #25a3ec30;
     border-radius: 50px;
-    border: solid 1px #eee;
     outline: none;
     transition: background 0.4s;
 
     span {
       position: absolute;
-      top: 3px;
+      top: 4px;
       left: 4px;
       width: 47px;
       height: 26px;
