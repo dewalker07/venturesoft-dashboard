@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/venturesoft-dashboard/static/css/main.05632172.chunk.css",
-    "main.js": "/venturesoft-dashboard/static/js/main.4e64ae93.chunk.js",
-    "main.js.map": "/venturesoft-dashboard/static/js/main.4e64ae93.chunk.js.map",
+    "main.css": "/venturesoft-dashboard/static/css/main.e7f294b5.chunk.css",
+    "main.js": "/venturesoft-dashboard/static/js/main.abfe040c.chunk.js",
+    "main.js.map": "/venturesoft-dashboard/static/js/main.abfe040c.chunk.js.map",
     "runtime-main.js": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js",
     "runtime-main.js.map": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js.map",
-    "static/js/2.40a93751.chunk.js": "/venturesoft-dashboard/static/js/2.40a93751.chunk.js",
-    "static/js/2.40a93751.chunk.js.map": "/venturesoft-dashboard/static/js/2.40a93751.chunk.js.map",
+    "static/js/2.6e3d9f10.chunk.js": "/venturesoft-dashboard/static/js/2.6e3d9f10.chunk.js",
+    "static/js/2.6e3d9f10.chunk.js.map": "/venturesoft-dashboard/static/js/2.6e3d9f10.chunk.js.map",
     "index.html": "/venturesoft-dashboard/index.html",
-    "precache-manifest.5d56dec5514ff4ddafe93a9519c979e9.js": "/venturesoft-dashboard/precache-manifest.5d56dec5514ff4ddafe93a9519c979e9.js",
+    "precache-manifest.4741c6d2e648d54cd284a037b0b5bd02.js": "/venturesoft-dashboard/precache-manifest.4741c6d2e648d54cd284a037b0b5bd02.js",
     "service-worker.js": "/venturesoft-dashboard/service-worker.js",
-    "static/css/main.05632172.chunk.css.map": "/venturesoft-dashboard/static/css/main.05632172.chunk.css.map",
-    "static/js/2.40a93751.chunk.js.LICENSE.txt": "/venturesoft-dashboard/static/js/2.40a93751.chunk.js.LICENSE.txt",
+    "static/css/main.e7f294b5.chunk.css.map": "/venturesoft-dashboard/static/css/main.e7f294b5.chunk.css.map",
+    "static/js/2.6e3d9f10.chunk.js.LICENSE.txt": "/venturesoft-dashboard/static/js/2.6e3d9f10.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/venturesoft-dashboard/static/media/logo.879dafbc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.49ee9395.js",
-    "static/js/2.40a93751.chunk.js",
-    "static/css/main.05632172.chunk.css",
-    "static/js/main.4e64ae93.chunk.js"
+    "static/js/2.6e3d9f10.chunk.js",
+    "static/css/main.e7f294b5.chunk.css",
+    "static/js/main.abfe040c.chunk.js"
   ]
 }
