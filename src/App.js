@@ -33,6 +33,11 @@ import Supervisorx from './components/Set2/Dashboard/Supervisorx';
 import Agentx from './components/Set2/Dashboard/Agentx';
 import Reviewerx from './components/Set2/Dashboard/Reviewerx';
 
+import Overview from './components/Set2/Project/Overview';
+import SupervisorOverview from './components/Set2/Project/SupervisorOverview';
+import AgentOverview from './components/Set2/Project/AgentOverview';
+import ReviewerOverview from './components/Set2/Project/ReviewerOverview';
+
 
 import './App.css';
 
@@ -73,6 +78,11 @@ function App() {
 
               <Route exact path="/role" name="Role" component={Role} />
               <Route exact path="/supervisor/settings" name="SupervisorSettings" component={SupervisorSettings} />
+
+              <Route exact path="/overview" name="Overview" component={Overview} />
+              <Route exact path="/overview/supervisor" name="SupervisorOverview" component={SupervisorOverview} />
+              <Route exact path="/agent/overview" name="AgentOverview" component={AgentOverview} />
+              <Route exact path="/reviewer/overview" name="ReviewerOverview" component={ReviewerOverview} />
 
             </Switch>
       </HashRouter>

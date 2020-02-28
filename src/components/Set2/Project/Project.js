@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Badge,
   Button,
@@ -92,7 +93,7 @@ class ProjectSupervisor extends Component {
                       <span className = "db-pr">Training</span>
                     </td>
                     <td>
-                      <span className = "db-pr">Overview</span>
+                      <span className = "db-pr"><Link to="/overview">Overview</Link></span>
                     </td>
                     <td>
                       <span className = "db-pr">Task</span>

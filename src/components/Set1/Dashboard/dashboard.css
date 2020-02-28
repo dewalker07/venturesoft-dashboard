@@ -10,6 +10,7 @@
 .table th {
     border-top: 1px solid #8484847d;
     border-bottom: 2px dotted #61616173;
+    padding: 12px;
 }
 
 .gr-message {
