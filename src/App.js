@@ -41,12 +41,12 @@ import './App.css';
 function App() {
   return (
     <div className="container-fluid">
-      <BrowserRouter>
+      <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
             <Switch>
               <Route exact path="/" name="Agent login" component={Login} />
-              <Route exact path={process.env.PUBLIC_URL + '/login/resetpassword'} name="Reset Password" component={ResetPassword} />
-              <Route exact path={process.env.PUBLIC_URL + '/resetpassword/instructions'} name="Reset Instructions" component={ResetInstructions} />
-              <Route exact path={process.env.PUBLIC_URL + '/dashboard'} name="Dashboard" component={Dashboard} />
+              <Route exact path="/login/resetpassword" name="Reset Password" component={ResetPassword} />
+              <Route exact path="/resetpassword/instructions" name="Reset Instructions" component={ResetInstructions} />
+              <Route exact path={'/dashboard'} name="Dashboard" component={Dashboard} />
               <Route exact path="/project" name="Project" component={Project} />
               <Route exact path="/report" name="Report" component={Report} />
               <Route exact path="/profile" name="Profile" component={Profile} />
