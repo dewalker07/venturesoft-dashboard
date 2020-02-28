@@ -38,6 +38,8 @@ import SupervisorOverview from './components/Set2/Project/SupervisorOverview';
 import AgentOverview from './components/Set2/Project/AgentOverview';
 import ReviewerOverview from './components/Set2/Project/ReviewerOverview';
 
+import Tasks from './components/Set2/Project/Tasks';
+
 
 import './App.css';
 
@@ -81,9 +83,9 @@ function App() {
 
               <Route exact path="/overview" name="Overview" component={Overview} />
               <Route exact path="/overview/supervisor" name="SupervisorOverview" component={SupervisorOverview} />
-              <Route exact path="/agent/overview" name="AgentOverview" component={AgentOverview} />
-              <Route exact path="/reviewer/overview" name="ReviewerOverview" component={ReviewerOverview} />
-
+              <Route exact path="/overview/agent" name="AgentOverview" component={AgentOverview} />
+              <Route exact path="/overview/reviewer" name="ReviewerOverview" component={ReviewerOverview} />
+              <Route exact path="/tasks" name="Tasks" component={Tasks} />
             </Switch>
       </HashRouter>
     </div>

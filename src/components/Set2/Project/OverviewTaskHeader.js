@@ -50,10 +50,10 @@ class OverviewTaskHeader extends React.Component {
                   <NavLink tag={RRNavLink} to="/overview/supervisor" activeClassName="active" className="nav-link">Supervisor</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/agent/overview" activeClassName="active" className="nav-link" >Agent</NavLink>
+                  <NavLink tag={RRNavLink} to="/overview/agent" activeClassName="active" className="nav-link" >Agent</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/reviewer/overview" activeClassName="active" className="nav-link" >Reviewer</NavLink>
+                  <NavLink tag={RRNavLink} to="/overview/reviewer" activeClassName="active" className="nav-link" >Reviewer</NavLink>
                 </NavItem>
                 </Nav>
            </Navbar>

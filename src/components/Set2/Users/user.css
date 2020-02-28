@@ -7,7 +7,7 @@
 }
 
 .ml-user-left {
-    margin-left: 46%;
+    margin-left: auto;
 }
 
 .ml-create-left {
@@ -16,6 +16,7 @@
 
 .toggle {
     display: flex;
+    margin-left: -8%;
 }
 
 .toggle-active {

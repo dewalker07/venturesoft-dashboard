@@ -58,7 +58,7 @@ class Header extends React.Component {
                   <NavLink tag={RRNavLink} to="/users" activeClassName="active" className="nav-link">Users</NavLink>
                 </NavItem>
                 </Nav>
-                <Nav className="hel-auto">
+                <Nav className="ml-auto">
                 <NavItem>
            
                 <div className="form-group has-search">

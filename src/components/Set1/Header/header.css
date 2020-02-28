@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+.has-search {
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+}
+
+.dropdown {
+    margin-left: -5%;
+}
 .has-search .form-control {
     padding-left: 2.375rem;
     font-size: 16px;
@@ -66,10 +74,6 @@
 
 .navber-nav {
     border-bottom: 1px solid #ffffff;
-}
-
-.ml-auto {
-    margin-left: 28%!important;
 }
 
 .ml {
