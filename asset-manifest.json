@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/venturesoft-dashboard/static/css/main.3343f866.chunk.css",
-    "main.js": "/venturesoft-dashboard/static/js/main.7aa50818.chunk.js",
-    "main.js.map": "/venturesoft-dashboard/static/js/main.7aa50818.chunk.js.map",
+    "main.js": "/venturesoft-dashboard/static/js/main.01ba6f74.chunk.js",
+    "main.js.map": "/venturesoft-dashboard/static/js/main.01ba6f74.chunk.js.map",
     "runtime-main.js": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js",
     "runtime-main.js.map": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js.map",
-    "static/js/2.53d41616.chunk.js": "/venturesoft-dashboard/static/js/2.53d41616.chunk.js",
-    "static/js/2.53d41616.chunk.js.map": "/venturesoft-dashboard/static/js/2.53d41616.chunk.js.map",
+    "static/js/2.b53270dc.chunk.js": "/venturesoft-dashboard/static/js/2.b53270dc.chunk.js",
+    "static/js/2.b53270dc.chunk.js.map": "/venturesoft-dashboard/static/js/2.b53270dc.chunk.js.map",
     "index.html": "/venturesoft-dashboard/index.html",
-    "precache-manifest.c9449bfe0193812fc59e82ce08c0dd18.js": "/venturesoft-dashboard/precache-manifest.c9449bfe0193812fc59e82ce08c0dd18.js",
+    "precache-manifest.c2b8e8c07439cb28312e06a2f06f3267.js": "/venturesoft-dashboard/precache-manifest.c2b8e8c07439cb28312e06a2f06f3267.js",
     "service-worker.js": "/venturesoft-dashboard/service-worker.js",
     "static/css/main.3343f866.chunk.css.map": "/venturesoft-dashboard/static/css/main.3343f866.chunk.css.map",
-    "static/js/2.53d41616.chunk.js.LICENSE.txt": "/venturesoft-dashboard/static/js/2.53d41616.chunk.js.LICENSE.txt",
+    "static/js/2.b53270dc.chunk.js.LICENSE.txt": "/venturesoft-dashboard/static/js/2.b53270dc.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/venturesoft-dashboard/static/media/logo.879dafbc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.49ee9395.js",
-    "static/js/2.53d41616.chunk.js",
+    "static/js/2.b53270dc.chunk.js",
     "static/css/main.3343f866.chunk.css",
-    "static/js/main.7aa50818.chunk.js"
+    "static/js/main.01ba6f74.chunk.js"
   ]
 }
