@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 /*Login Authentication*/
 import Login  from './Login/Login';
 import ResetPassword from './Login/ResetPassword';
@@ -41,12 +41,12 @@ import './App.css';
 function App() {
   return (
     <div className="container-fluid">
-      <HashRouter>
+      <BrowserRouter>
             <Switch>
               <Route exact path="/" name="Agent login" component={Login} />
-              <Route exact path="/login/resetpassword" name="Reset Password" component={ResetPassword} />
-              <Route exact path="/resetpassword/instructions" name="Reset Instructions" component={ResetInstructions} />
-              <Route exact path="/dashboard" name="Dashboard" component={Dashboard} />
+              <Route exact path={process.env.PUBLIC_URL + '/login/resetpassword'} name="Reset Password" component={ResetPassword} />
+              <Route exact path={process.env.PUBLIC_URL + '/resetpassword/instructions'} name="Reset Instructions" component={ResetInstructions} />
+              <Route exact path={process.env.PUBLIC_URL + '/dashboard'} name="Dashboard" component={Dashboard} />
               <Route exact path="/project" name="Project" component={Project} />
               <Route exact path="/report" name="Report" component={Report} />
               <Route exact path="/profile" name="Profile" component={Profile} />
@@ -75,7 +75,7 @@ function App() {
               <Route exact path="/supervisor/settings" name="SupervisorSettings" component={SupervisorSettings} />
 
             </Switch>
-      </HashRouter>
+      </BrowserRouter>
     </div>
        
   );
