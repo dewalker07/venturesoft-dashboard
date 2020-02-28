@@ -46,7 +46,7 @@ function App() {
               <Route exact path="/" name="Agent login" component={Login} />
               <Route exact path="/login/resetpassword" name="Reset Password" component={ResetPassword} />
               <Route exact path="/resetpassword/instructions" name="Reset Instructions" component={ResetInstructions} />
-              <Route exact path={'/dashboard'} name="Dashboard" component={Dashboard} />
+              <Route exact path={`/dashboard`} name="Dashboard" component={Dashboard} />
               <Route exact path="/project" name="Project" component={Project} />
               <Route exact path="/report" name="Report" component={Report} />
               <Route exact path="/profile" name="Profile" component={Profile} />
