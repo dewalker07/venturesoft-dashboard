@@ -111,10 +111,10 @@ class ProjectSupervisor extends Component {
                   <tr>
                    
                     <td>
-                      <div>Project X</div>
+                      <div>Project Y</div>
                     </td>
                     <td>
-                      <span className = "db-pr paused">Active</span>
+                      <span className = "db-pr paused">Paused</span>
                     </td>
                     <td>
                       <span className = "db-pr">Delivery</span>
@@ -139,6 +139,34 @@ class ProjectSupervisor extends Component {
                   <tr>
                    
                    <td>
+                     <div>Project Z</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr active">Active</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Training</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRX</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                   
+                   <td>
                      <div>Project X</div>
                    </td>
                    <td>
@@ -167,10 +195,10 @@ class ProjectSupervisor extends Component {
                  <tr>
                   
                    <td>
-                     <div>Project X</div>
+                     <div>Project Y</div>
                    </td>
                    <td>
-                     <span className = "db-pr paused">Active</span>
+                     <span className = "db-pr paused">Paused</span>
                    </td>
                    <td>
                      <span className = "db-pr">Delivery</span>
@@ -192,178 +220,291 @@ class ProjectSupervisor extends Component {
                    </td>
                    
                  </tr>
+                 <tr>
+                  
+                  <td>
+                    <div>Project Z</div>
+                  </td>
+                  <td>
+                    <span className = "db-pr active">Active</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Training</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Overview</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Task</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Sampling</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">View</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">PRX</span>
+                  </td>
+                  
+                </tr>
+               
+                <tr>
+                   
+                   <td>
+                     <div>Project X</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr active">Active</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Training</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRX</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                  
+                   <td>
+                     <div>Project Y</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr paused">Paused</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Delivery</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRY</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                  
+                  <td>
+                    <div>Project Z</div>
+                  </td>
+                  <td>
+                    <span className = "db-pr active">Active</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Training</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Overview</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Task</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Sampling</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">View</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">PRX</span>
+                  </td>
+                  
+                </tr>
+               
+                <tr>
+                   
+                   <td>
+                     <div>Project X</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr active">Active</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Training</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRX</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                  
+                   <td>
+                     <div>Project Y</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr paused">Paused</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Delivery</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRY</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                  
+                  <td>
+                    <div>Project Z</div>
+                  </td>
+                  <td>
+                    <span className = "db-pr active">Active</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Training</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Overview</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Task</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Sampling</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">View</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">PRX</span>
+                  </td>
+                  
+                </tr>
+               
+                <tr>
+                   
+                   <td>
+                     <div>Project X</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr paused">Paused</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Training</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRX</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                  
+                   <td>
+                     <div>Project Y</div>
+                   </td>
+                   <td>
+                     <span className = "db-pr paused">Paused</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Delivery</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Overview</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Task</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">Sampling</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">View</span>
+                   </td>
+                   <td>
+                     <span className = "db-pr">PRY</span>
+                   </td>
+                   
+                 </tr>
+                 <tr>
+                  
+                  <td>
+                    <div>Project Z</div>
+                  </td>
+                  <td>
+                    <span className = "db-pr active">Active</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Training</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Overview</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Task</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">Sampling</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">View</span>
+                  </td>
+                  <td>
+                    <span className = "db-pr">PRX</span>
+                  </td>
+                  
+                </tr>
+               
                 
-                 <tr>
-                   
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr active">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Training</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRX</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                  
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr paused">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Delivery</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRY</span>
-                   </td>
-                   
-                 </tr>
-                
-                 <tr>
-                   
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr active">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Training</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRX</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                  
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr paused">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Delivery</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRY</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                   
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr active">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Training</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRX</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                  
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr paused">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Delivery</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRY</span>
-                   </td>
-                   
-                 </tr>
-                
-                 
                  
                   </tbody>
                 </Table>
