@@ -6,6 +6,10 @@
     border: 1px solid #8484847d;
 }
 
+.table th {
+    background-color: #00800014;
+}
+
 .table td,
 .table th {
     border-top: 1px solid #8484847d;

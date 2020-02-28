@@ -112,8 +112,7 @@ class Tasks extends Component {
             </td>
             </tr>
             </tbody> 
-            </Table> 
-            <Table >
+            
             <thead>
             <tr>
             <th> Review </th> 
@@ -149,8 +148,7 @@ class Tasks extends Component {
             </td>
             </tr>
             </tbody> 
-            </Table> 
-            <Table >
+            
             <thead>
             <tr>
             <th> Production </th> 
@@ -186,8 +184,7 @@ class Tasks extends Component {
             </td>
             </tr>
             </tbody> 
-            </Table> 
-            <Table >
+
             <thead>
             <tr>
             <th> Review </th> 
@@ -223,7 +220,9 @@ class Tasks extends Component {
             </td>
             </tr>
             </tbody> 
+
             </Table> 
+            
             </div>
 
             
