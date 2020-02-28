@@ -25,7 +25,17 @@ import UserManage from './components/Set2/Users/UserManage';
 import Role from './components/Set2/Profile/Role';
 import SupervisorSettings from './components/Set2/Profile/Settings';
 
+import SuperProject from './components/Set2/Dashboard/SuperProject';
+import Supervisor from './components/Set2/Dashboard/Supervisor';
+import Agent from './components/Set2/Dashboard/Agent';
+import Reviewer from './components/Set2/Dashboard/Reviewer'
+import Supervisorx from './components/Set2/Dashboard/Supervisorx';
+import Agentx from './components/Set2/Dashboard/Agentx';
+import Reviewerx from './components/Set2/Dashboard/Reviewerx';
+
+
 import './App.css';
+
 
 
 function App() {
@@ -52,6 +62,14 @@ function App() {
               <Route exact path="/users" name="User" component={User} />
               <Route exact path="/create/user" name="CreateUser" component={CreateUser} />
               <Route exact path="/usermanage" name="UserManage" component={UserManage} />
+
+              <Route exact path="/superproject" name="SuperProject" component={SuperProject} />
+              <Route exact path="/projectx/supervisor" name="Supervisor" component={Supervisor} />
+              <Route exact path="/agent" name="Agent" component={Agent} />
+              <Route exact path="/reviewer" name="Reviewer" component={Reviewer} />
+              <Route exact path="/supervisorx" name="Supervisorx" component={Supervisorx} />
+              <Route exact path="/agentx" name="Agentx" component={Agentx} />
+              <Route exact path="/reviewerx" name="Reviewerx" component={Reviewerx} />
 
               <Route exact path="/role" name="Role" component={Role} />
               <Route exact path="/supervisor/settings" name="SupervisorSettings" component={SupervisorSettings} />

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Badge,
   Button,
@@ -79,7 +80,7 @@ class Project extends Component {
                   <tr>
                    
                     <td>
-                      <div>Project X</div>
+                      <div><Link className="pr-1" to="/production">Project X</Link></div>
                     </td>
                     <td>
                       <div>Image</div>

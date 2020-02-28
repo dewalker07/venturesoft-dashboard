@@ -81,7 +81,7 @@ class Dashboard extends Component {
                   <tr>
                    
                     <td>
-                      <div><Link className="pr-1" to="/production">Project X</Link></div>
+                      <div>Project X</div>
                     </td>
                     <td>
                       <div>9852</div>

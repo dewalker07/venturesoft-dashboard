@@ -124,15 +124,7 @@ class Reviewx extends React.Component {
                             <ErrorMessage name="comments" component="div" className="invalid-feedback" />
                         </div>
 
-                        <button className="btn-submit-ans">Submit Answer</button>
-                       
-                       
-
-                    
-
-                       
-                        
-                        
+                        <button className="btn-submit-ans">Submit Answer</button> 
                     </Form>
                 )}
             </Formik>

@@ -78,15 +78,7 @@ class Review extends React.Component {
                 {({ errors, status, touched }) => (
                     <Form>
                         
-                        <Input type="textarea" name="text" />
-                       
-                       
-
-                    
-
-                       
-                        
-                        
+                        <Input type="textarea" name="text" /> 
                     </Form>
                 )}
             </Formik>

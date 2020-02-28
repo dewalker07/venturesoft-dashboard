@@ -25,13 +25,12 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
 import Header from '../Header/Header';
-import ProjectHeader from './ProjectHeader';
 
-import './project.css';
-
+import '../Project/project.css';
 
 
-class Productionx extends React.Component {
+
+class Supervisorx extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false }
@@ -56,14 +55,17 @@ class Productionx extends React.Component {
                   <h4 className="role">Role</h4>
                 </NavItem> 
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/projectx" activeClassName="active" className="nav-link" >Production</NavLink>
+                  <NavLink tag={RRNavLink} to="/supervisorx" activeClassName="active" className="nav-link" >Supervisor</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/reviewx" activeClassName="active" className="nav-link">Review</NavLink>
+                  <NavLink tag={RRNavLink} to="/agentx" activeClassName="active" className="nav-link">Agent</NavLink>
+                </NavItem>
+                <NavItem className="px-3">
+                  <NavLink tag={RRNavLink} to="/reviewerx" activeClassName="active" className="nav-link">Reviewer</NavLink>
                 </NavItem>
                 </Nav>
-                <Nav className="ml-left">
-                  <button className="btn-stopwork"><Link className="btn-stop" to="/production">Stop Work</Link></button>
+                <Nav className="ml-btn">
+                  <button className="btn-stopwork"><Link className="btn-stop" to="/superproject">Stop Work</Link></button>
                 </Nav>
            </Navbar>
            <Row>
@@ -122,7 +124,6 @@ class Productionx extends React.Component {
                         </div>
 
                         <button className="btn-submit-ans">Submit Answer</button>
-
                     </Form>
                 )}
             </Formik>
@@ -134,4 +135,4 @@ class Productionx extends React.Component {
     }
 }
 
-export default Productionx;
+export default Supervisorx;

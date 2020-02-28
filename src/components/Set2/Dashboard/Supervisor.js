@@ -25,13 +25,13 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
 import Header from '../Header/Header';
-import ProjectHeader from './ProjectHeader';
+import SuperProjectHeader from './SuperProjectHeader';
 
-import './project.css';
+import '../Project/project.css';
 
 
 
-class Production extends React.Component {
+class Supervisor extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -53,7 +53,7 @@ class Production extends React.Component {
         return ( 
             <div>
             <Header />
-            <ProjectHeader />
+            <SuperProjectHeader />
            <Row>
                 <Col md="3"></Col>
                 <Col md="6" className="production-form">
@@ -91,4 +91,4 @@ class Production extends React.Component {
     }
 }
 
-export default Production;
+export default Supervisor;

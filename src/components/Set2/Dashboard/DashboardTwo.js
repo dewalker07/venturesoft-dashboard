@@ -86,7 +86,7 @@ class DashboardTwo extends Component {
             <tr>
             <td>
             <div><Link className = "pr-1"
-            to = "#"> Project X </Link></div>
+            to = "/superproject"> Project X </Link></div>
             </td> 
             <td>
             <span className = "db-pr"> XXXXX </span>
