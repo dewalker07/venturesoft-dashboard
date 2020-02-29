@@ -1,78 +1,104 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Col, 
-  Row,
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-  Input,
-  InputGroup,
-  InputGroupAddon
+    Col,
+    Row,
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    Dropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
+    NavbarText,
+    Input,
+    InputGroup,
+    InputGroupAddon
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
-import FormikDatePicker from './FormikDatePicker';
+import FormikDatePicker from '../../Set1/Profile/FormikDatePicker';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import Selectbox from './Select';
-import countryOptions from './countries';
-import stateOptions from './states';
-import cityOptions from './cities';
+import Selectbox from '../../Set1/Profile/Select';
+import countryOptions from '../../Set1/Profile/countries';
+import stateOptions from '../../Set1/Profile/states';
+import cityOptions from '../../Set1/Profile/cities';
+// import FormikRadioGroup from '../../Set1/Settings/FormikRadioGroup';
 
 import Header from '../Header/Header';
-import ProfileHeader from './ProfileHeader';
+import CreateHeader from './CreateHeader';
 
-import './profile.css';
+import './user.css';
 
-class Profile extends React.Component {
+
+
+class CreateUser extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
     }
-    
+
     toggleDropdown = () => {
         this.setState(prevState => ({
-          isOpen: !prevState.isOpen,
+            isOpen: !prevState.isOpen,
         }));
-      }
-      selectCountry (val) {
+    }
+    selectCountry(val) {
         this.setState({ country: val });
-      }
+    }
 
-    render() { 
-        const {isOpen} = this.state;
+    render() {
+        const { isOpen } = this.state;
         const { country } = this.state;
-        
-        return ( 
+
+        return (
             <div>
             <Header />
-            <ProfileHeader />
+            <CreateHeader />
            <Row>
                 <Col md="3"></Col>
                 <Col md="6" className="profile-form">
            <Formik
                 initialValues={{
-                    // email: '',
-                    password: '',
-                    date: '2019-10-24T22:00:00.000Z'
+                    firstname: '',
+                    lastname: '',
+                    email: '',
+                    phonenumber: '',
+                    gender: '',
+                    dateofbirth: '2019-10-24T22:00:00.000Z',
+                    country: '',
+                    state: '',
+                    city: '',
+                    address: '',
+                    zip: ''
                 }}
                 validationSchema={Yup.object().shape({
-                    // email: Yup.string()
-                    //     .email('Email is invalid')
-                    //     .required('Email is required'),
-                    facode: Yup.number()
-                         .min(4, '2FACODE must be 4 digit number')
-                         .required('Code required')
+                    firstname: Yup.string()
+                        .required('firstname is required'),
+                    lastname: Yup.string()
+                    .required('lastname is required'),
+                    email: Yup.string()
+                        .required('emial is required'),
+                    phonenumber: Yup.number()
+                    .min(10, 'Phonenumber must be 10 digit number')
+                    .required('phonenumber is required'),
+                    address: Yup.string()
+                        .required('address is required'),
+                    country: Yup.string()
+                    .required('country is required'),
+                    city: Yup.string()
+                    .required('city is required'),
+                    state: Yup.string()
+                    .required('state is required'),
+                    zip: Yup.number()
+                    .required('emial is required')
+
+                   
                 })}
                 onSubmit={fields => {
                     alert('SUCCESS!! :-)\n\n' + JSON.stringify(fields, null, 4))
@@ -120,6 +146,7 @@ class Profile extends React.Component {
                         <div className="col-6">
                             <label htmlFor="dateofbirth" className="col-form-label">Date Of Birth</label>
                             <FormikDatePicker />
+                            <ErrorMessage name="dateofbirth" component="div" className="invalid-feedback" />
                         </div>
                         </div>
                         <div className="form-row">
@@ -154,8 +181,8 @@ class Profile extends React.Component {
                             <ErrorMessage name="zip" component="div" className="invalid-feedback" />
                         </div>
                         <div className="col-6"></div>
+                        {/* <button type="submit">Create</button> */}
                         </div>
-                        
                     </Form>
                 )}
             </Formik>
@@ -163,8 +190,8 @@ class Profile extends React.Component {
             <Col md="3"></Col>
             </Row>
            </div>
-         );
+        );
     }
 }
 
-export default Profile;
+export default CreateUser;

@@ -76,6 +76,9 @@ class Header extends React.Component {
                 <NavItem className="px-3">
                   <NavLink tag={RRNavLink} to="/users" activeClassName="active" className="nav-link">Users</NavLink>
                 </NavItem>
+                <NavItem className="px-3">
+                  <NavLink tag={RRNavLink} to="/setup/project" activeClassName="active" className="nav-link">Setup Project</NavLink>
+                </NavItem>
                 </Nav>
                 <Nav className="ml-auto">
                 <NavItem>
@@ -87,8 +90,8 @@ class Header extends React.Component {
           
                 </NavItem>
                   <Dropdown isOpen={isOpen} toggle={this.toggleDropdown}>
-                    <DropdownToggle>
-                      <span className="text-body">Supervisor 1</span>
+                    <DropdownToggle className="btn-pro">
+                      <span className="text-body">Project Manager 1</span>
                       <i className={cx('fa fa-angle-down ml-sm', s.arrow, {[s.arrowActive]: isOpen})} />
                     </DropdownToggle>
                     <DropdownMenu>

@@ -24,9 +24,9 @@ import {
 } from 'reactstrap';
 import Header from '../Header/Header';
 
-import './dashboardtwo.css';
+import './dashboardthree.css';
 
-class DashboardTwo extends Component {
+class DashboardThree extends Component {
     constructor(props) {
         super(props);
 
@@ -61,14 +61,14 @@ class DashboardTwo extends Component {
             <Header />
             
             <Row className = "gr-message">
-            <Col md = "4"> </Col> 
-            <Col md = "4">
+            <Col md = "3"> </Col> 
+            <Col md = "6">
             <div className = "success-message">
-            Hi Supervisor1!You are logged in as Supervisor 
+            Hi Project Manager 1!You are logged in as Project Manager
             </div>
             </Col> 
             </Row>
-            <Col md = "4"> </Col> 
+            <Col md = "3"> </Col> 
             <div className = "table-data">
 
             <Table className="">
@@ -86,7 +86,7 @@ class DashboardTwo extends Component {
             <tr>
             <td>
             <div><Link className = "pr-1"
-            to = "/superproject"> Project X </Link></div>
+            to = "#"> Project X </Link></div>
             </td> 
             <td>
             <span className = "db-pr"> XXXXX </span>
@@ -346,4 +346,4 @@ class DashboardTwo extends Component {
     }
 }
 
-export default DashboardTwo;
+export default DashboardThree;

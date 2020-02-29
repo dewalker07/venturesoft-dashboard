@@ -111,3 +111,7 @@ button+button {
 .css-1okebmr-indicatorSeparator {
     background-color: #fff !important;
 }
+
+.MuiIconButton-root {
+    box-shadow: none;
+}

@@ -1,0 +1,33 @@
+.pr-user {
+    border: 1px solid #80808029;
+    padding: 4px 26px 4px 26px;
+    border-radius: 6px;
+    background: #efebeb0d;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.ml-user-left {
+    margin-left: auto;
+}
+
+.ml-create-left {
+    margin-left: 84%;
+}
+
+.toggle {
+    display: flex;
+    margin-left: -8%;
+}
+
+.toggle-active {
+    padding: 26px 8px;
+    color: #38a1ff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-ok {
+    padding: 6px 32px;
+}
+.btn-ok a {
+    color: #fff;
+}

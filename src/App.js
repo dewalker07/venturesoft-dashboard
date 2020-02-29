@@ -40,6 +40,7 @@ import ReviewerOverview from './components/Set2/Project/ReviewerOverview';
 
 import Tasks from './components/Set2/Project/Tasks';
 
+import DashboardThree from './components/Set3/Dashboard/DashboardThree';
 
 import './App.css';
 
@@ -86,6 +87,8 @@ function App() {
               <Route exact path="/overview/agent" name="AgentOverview" component={AgentOverview} />
               <Route exact path="/overview/reviewer" name="ReviewerOverview" component={ReviewerOverview} />
               <Route exact path="/tasks" name="Tasks" component={Tasks} />
+
+              <Route exact path="/projectmanager" name="DashboardThree" component={DashboardThree} />
             </Switch>
       </HashRouter>
     </div>
