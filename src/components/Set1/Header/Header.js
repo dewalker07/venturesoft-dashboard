@@ -29,7 +29,12 @@ import './header.css';
 class Header extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { isOpen: false }
+        this.state = { 
+          isOpen: false,
+          collapsed: true
+         }
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.closeNavbar = this.closeNavbar.bind(this);
     }
     
     toggleDropdown = () => {
@@ -37,6 +42,19 @@ class Header extends React.Component {
           isOpen: !prevState.isOpen,
         }));
       }
+
+      toggleNavbar () {
+        this.setState({
+          collapsed: !this.state.collapsed
+          });
+        }
+  
+        closeNavbar() {
+          if (this.state.collapsed == true) {
+          this.toggleNavbar();
+          }
+      }
+
     
     render() { 
         const {isOpen} = this.state;
@@ -44,6 +62,8 @@ class Header extends React.Component {
         return ( 
             <Navbar color="light" light expand="md">
               <NavbarBrand href="/" className="nav"><img src={logo} alt="VentureSoft Global" /></NavbarBrand>
+              <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+              <Collapse isOpen={!this.state.collapsed}  navbar>
               <Nav className="d-md-down-none" navbar>
                 <NavItem className="px-3">
                   <NavLink tag={RRNavLink} to="/dashboard" activeClassName="active" className="nav-link" >Dashboard</NavLink>
@@ -76,6 +96,7 @@ class Header extends React.Component {
                     </DropdownMenu>
                   </Dropdown>
                 </Nav>
+                </Collapse>
            </Navbar>
          );
     }
