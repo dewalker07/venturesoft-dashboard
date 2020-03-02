@@ -77,7 +77,7 @@ class Header extends React.Component {
                   <NavLink tag={RRNavLink} to="/pm/users" activeClassName="active" className="nav-link">Users</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Setup Project</NavLink>
+                  <NavLink tag={RRNavLink} to="/setupproject" activeClassName="active" className="nav-link">Setup Project</NavLink>
                 </NavItem>
                 </Nav>
                 <Nav className="ml-auto">
@@ -95,8 +95,8 @@ class Header extends React.Component {
                       <i className={cx('fa fa-angle-down ml-sm', s.arrow, {[s.arrowActive]: isOpen})} />
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem><i className="fa fa-user"></i><Link to="/role" className="btn-logout"> Role</Link></DropdownItem>
-                      <DropdownItem><i className="fa fa-wrench"></i><Link to="/supervisor/settings" className="btn-logout"> Settings</Link></DropdownItem>
+                      <DropdownItem><i className="fa fa-user"></i><Link to="/pm/role" className="btn-logout"> Role</Link></DropdownItem>
+                      <DropdownItem><i className="fa fa-wrench"></i><Link to="/pm/settings" className="btn-logout"> Settings</Link></DropdownItem>
                       <DropdownItem><i className="fa fa-lock"></i><Link to="/" className="btn-logout"> Logout</Link></DropdownItem>
                     </DropdownMenu>
                   </Dropdown>

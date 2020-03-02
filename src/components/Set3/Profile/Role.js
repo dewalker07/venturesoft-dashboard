@@ -7,9 +7,9 @@ import {
   } from 'reactstrap';
 import { Checkbox } from 'semantic-ui-react'
 import Header from '../Header/Header';
-import ProHeader from './ProHeader';
+import ProHeaderPM from './ProHeader';
 
-class Role extends Component {
+class PMRole extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -18,7 +18,7 @@ class Role extends Component {
         return ( 
             <div>
               <Header />
-              <ProHeader />
+              <ProHeaderPM />
               <Row>
                 <Col md="4"></Col>
                 <Col md="4" className="profile-form">
@@ -47,7 +47,13 @@ class Role extends Component {
                         </div> 
                         <div className="form-row">
                         <Checkbox label='Review Agent' /> 
-                        </div>           
+                        </div>
+                        <div className="form-row">
+                        <Checkbox label='Supervisor' /> 
+                        </div>  
+                        <div className="form-row">
+                        <Checkbox label='Project Manager / Admin' /> 
+                        </div>             
                     </Form>
                 )}
             </Formik>
@@ -59,4 +65,4 @@ class Role extends Component {
     }
 }
  
-export default Role;
+export default PMRole;

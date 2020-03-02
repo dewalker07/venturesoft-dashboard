@@ -9,7 +9,7 @@ import {
 import { Checkbox } from 'semantic-ui-react'
 import Header from '../Header/Header';
 
-class UserManage extends Component {
+class PMUserManage extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -48,7 +48,7 @@ class UserManage extends Component {
                         <Checkbox label='Deactivate' /> 
                         </div>
                         <div>
-                         <button className="btn-ok"><Link to="/users">Ok</Link></button>
+                         <button className="btn-ok"><Link to="/activation/link">Ok</Link></button>
                         </div>           
                     </Form>
                 )}
@@ -61,4 +61,4 @@ class UserManage extends Component {
     }
 }
  
-export default UserManage;
+export default PMUserManage;

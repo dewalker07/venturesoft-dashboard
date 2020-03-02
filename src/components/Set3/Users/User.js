@@ -95,7 +95,7 @@ class UsersPM extends Component {
                         <span className="pr-user">Active</span>
                     </td>
                     <td>
-                        <span className="pr-user"><Link to="/usermanage">Manage</Link></span>
+                        <span className="pr-user"><Link to="/pm/usermanage">Manage</Link></span>
                     </td>
                     </tr>
                     <tr>

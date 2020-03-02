@@ -44,8 +44,14 @@ import DashboardThree from './components/Set3/Dashboard/DashboardThree';
 import ProjectPM from './components/Set3/Project/Project';
 import UsersPM from './components/Set3/Users/User';
 import CreateUserPM from './components/Set3/Users/CreateUserPM';
+import PMRole from './components/Set3/Profile/Role';
+import PMSettings from './components/Set3/Profile/Settings';
+import PMUserManage from './components/Set3/Users/UserManage';
+import ActivationLink from './components/Set3/Users/ActivationLink';
+import SetupProject from './components/Set3/SetupProject/SetupProject';
 
 import './App.css';
+
 
 
 
@@ -95,6 +101,11 @@ function App() {
               <Route exact path="/pmadmin/project" name="ProjectPM" component={ProjectPM} />
               <Route exact path="/pm/users" name="UsersPM"  component={UsersPM} />
               <Route exact path="/pm/create" name="CreateUserPM" component={CreateUserPM} />
+              <Route exact path="/pm/role" name="PMRole" component={PMRole} />
+              <Route exact path="/pm/settings" name="PMSettings" component={PMSettings} />
+              <Route exact path="/pm/usermanage" name="PMUserManage" component={PMUserManage} />
+              <Route exact path="/activation/link" name="ActivationLink" component={ActivationLink} />
+              <Route exact path="/setupproject" name="SetupProject" component={SetupProject} />
             </Switch>
       </HashRouter>
     </div>

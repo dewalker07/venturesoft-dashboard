@@ -28,7 +28,7 @@ import Selectbox from '../../Set1/Profile/Select';
 import countryOptions from '../../Set1/Profile/countries';
 import stateOptions from '../../Set1/Profile/states';
 import cityOptions from '../../Set1/Profile/cities';
-// import FormikRadioGroup from '../../Set1/Settings/FormikRadioGroup';
+import FormikRadioGroup from '../Profile/FormikRadioGroup';
 
 import Header from '../Header/Header';
 import CreateHeader from './CreateHeader';
@@ -180,8 +180,15 @@ class CreateUserPM extends React.Component {
                             <Field name="zip" type="number" className={'form-control' + (errors.phonenumber && touched.phonenumber ? ' is-invalid' : '')} />
                             <ErrorMessage name="zip" component="div" className="invalid-feedback" />
                         </div>
-                        <div className="col-6"></div>
-                        {/* <button type="submit">Create</button> */}
+                        <div className="col-6">
+                            <label htmlFor="role" className="col-form-label">Role</label>
+                            <Field
+                                name="radioGroup"
+                                options={["Production Agent", "Review Agent", "Supervisor", "Project Manager / Admin"]}
+                                component={FormikRadioGroup}
+                           />
+                            <ErrorMessage name="role" component="div" className="invalid-feedback" />
+                        </div>
                         </div>
                     </Form>
                 )}

@@ -22,9 +22,9 @@ import {
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
 
-import './profile.css';
+import './setupproject.css';
 
-class ProHeaderPM extends React.Component {
+class SetupProjectHeader extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false }
@@ -44,15 +44,20 @@ class ProHeaderPM extends React.Component {
             <Navbar expand="md" className="prf-view">
               <Nav className="d-md-down-none" navbar>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pm/settings" activeClassName="active" className="nav-link">Settings</NavLink>
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link" >Client Info</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pm/role" activeClassName="active" className="nav-link" >Role</NavLink>
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Input</NavLink>
                 </NavItem>
-                </Nav>
-                <Nav className="ml-left">
-                  <button className="btn-edit">Edit<i className="fas fa-pencil-alt" aria-hidden="true"></i></button>
-                  <button className="btn-save">Save</button>
+                <NavItem className="px-3">
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Output</NavLink>
+                </NavItem>
+                <NavItem className="px-3">
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">API</NavLink>
+                </NavItem>
+                <NavItem className="px-3">
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Seed Upload</NavLink>
+                </NavItem>
                 </Nav>
            </Navbar>
            
@@ -61,4 +66,4 @@ class ProHeaderPM extends React.Component {
     }
 }
 
-export default ProHeaderPM;
+export default SetupProjectHeader;

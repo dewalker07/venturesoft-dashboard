@@ -31,3 +31,7 @@
 .btn-ok a {
     color: #fff;
 }
+
+.MuiFormGroup-root {
+    margin-left: 12px;
+}

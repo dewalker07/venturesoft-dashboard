@@ -37,7 +37,7 @@ import './profile.css';
 
 
 
-class SupervisorSettings extends React.Component {
+class PMSettings extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -205,4 +205,4 @@ class SupervisorSettings extends React.Component {
     }
 }
 
-export default SupervisorSettings;
+export default PMSettings;
