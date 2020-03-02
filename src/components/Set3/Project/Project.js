@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Badge,
-  Button,
   ButtonDropdown,
   ButtonGroup,
   ButtonToolbar,
@@ -22,11 +21,15 @@ import {
   Breadcrumb,
   BreadcrumbItem
 } from 'reactstrap';
+import SettingsIcon from '@material-ui/icons/Settings';
+import Button from '@material-ui/core/Button';
 import Header from '../Header/Header';
+import Switch from './Switch';
+import SwitchChecked from './SwitchChecked';
 
 import './project.css';
 
-class ProjectSupervisor extends Component {
+class ProjectPM extends Component {
   constructor(props) {
     super(props);
 
@@ -77,7 +80,9 @@ class ProjectSupervisor extends Component {
                     <th>Tasks</th>
                     <th>Sampling</th>
                     <th>View</th>
+                    <th>Pause</th>
                     <th>Project Code</th>
+                    <th>Settings</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -93,10 +98,10 @@ class ProjectSupervisor extends Component {
                       <span className = "db-pr">Training</span>
                     </td>
                     <td>
-                      <span className = "db-pr"><Link to="/overview">Overview</Link></span>
+                      <span className = "db-pr"><Link to="#">Overview</Link></span>
                     </td>
                     <td>
-                      <span className = "db-pr"><Link to="/tasks">Task</Link></span>
+                      <span className = "db-pr"><Link to="#">Task</Link></span>
                     </td>
                     <td>
                       <span className = "db-pr">Sampling</span>
@@ -105,7 +110,17 @@ class ProjectSupervisor extends Component {
                       <span className = "db-pr">View</span>
                     </td>
                     <td>
-                      <span className = "db-pr">PRX</span>
+                        <div><Switch /></div>
+                    </td>
+                    <td>
+                    <span>PRX</span>
+                    </td>
+                    <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
                     </td>
                     
                   </tr>
@@ -133,7 +148,17 @@ class ProjectSupervisor extends Component {
                       <span className = "db-pr">View</span>
                     </td>
                     <td>
-                      <span className = "db-pr">PRY</span>
+                     <div><SwitchChecked /></div>
+                   </td>
+                    <td>
+                    <span>PRY</span>
+                    </td>
+                    <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
                     </td>
                     
                   </tr>
@@ -143,7 +168,7 @@ class ProjectSupervisor extends Component {
                      <div>Project Z</div>
                    </td>
                    <td>
-                     <span className = "db-pr active">Active</span>
+                     <span className = "db-pr inactive">Inactive</span>
                    </td>
                    <td>
                      <span className = "db-pr">Training</span>
@@ -161,8 +186,18 @@ class ProjectSupervisor extends Component {
                      <span className = "db-pr">View</span>
                    </td>
                    <td>
-                     <span className = "db-pr">PRX</span>
+                     <div><Switch /></div>
                    </td>
+                   <td>
+                   <span>PRZ</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                    
                  </tr>
                  <tr>
@@ -189,8 +224,18 @@ class ProjectSupervisor extends Component {
                      <span className = "db-pr">View</span>
                    </td>
                    <td>
-                     <span className = "db-pr">PRX</span>
+                     <div><Switch /></div>
                    </td>
+                   <td>
+                   <span>PRZ</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                    
                  </tr>
                  <tr>
@@ -217,8 +262,18 @@ class ProjectSupervisor extends Component {
                      <span className = "db-pr">View</span>
                    </td>
                    <td>
-                     <span className = "db-pr">PRY</span>
+                     <div><Switch /></div>
                    </td>
+                   <td>
+                   <span>PRZ</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                    
                  </tr>
                  <tr>
@@ -227,7 +282,7 @@ class ProjectSupervisor extends Component {
                     <div>Project Z</div>
                   </td>
                   <td>
-                    <span className = "db-pr active">Active</span>
+                    <span className = "db-pr inactive">Inactive</span>
                   </td>
                   <td>
                     <span className = "db-pr">Training</span>
@@ -245,8 +300,18 @@ class ProjectSupervisor extends Component {
                     <span className = "db-pr">View</span>
                   </td>
                   <td>
-                    <span className = "db-pr">PRX</span>
-                  </td>
+                     <div><Switch /></div>
+                   </td>
+                   <td>
+                   <span>PRZ</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                   
                 </tr>
                
@@ -274,154 +339,22 @@ class ProjectSupervisor extends Component {
                      <span className = "db-pr">View</span>
                    </td>
                    <td>
-                     <span className = "db-pr">PRX</span>
+                     <div><SwitchChecked /></div>
                    </td>
+                   <td>
+                   <span>PRY</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                    
                  </tr>
-                 <tr>
-                  
-                   <td>
-                     <div>Project Y</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr paused">Paused</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Delivery</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRY</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                  
-                  <td>
-                    <div>Project Z</div>
-                  </td>
-                  <td>
-                    <span className = "db-pr active">Active</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Training</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Overview</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Task</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Sampling</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">View</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">PRX</span>
-                  </td>
-                  
-                </tr>
-               
+
                 <tr>
-                   
-                   <td>
-                     <div>Project X</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr active">Active</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Training</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRX</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                  
-                   <td>
-                     <div>Project Y</div>
-                   </td>
-                   <td>
-                     <span className = "db-pr paused">Paused</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Delivery</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Overview</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Task</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">Sampling</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">View</span>
-                   </td>
-                   <td>
-                     <span className = "db-pr">PRY</span>
-                   </td>
-                   
-                 </tr>
-                 <tr>
-                  
-                  <td>
-                    <div>Project Z</div>
-                  </td>
-                  <td>
-                    <span className = "db-pr active">Active</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Training</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Overview</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Task</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Sampling</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">View</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">PRX</span>
-                  </td>
-                  
-                </tr>
-               
-                <tr>
-                   
                    <td>
                      <div>Project X</div>
                    </td>
@@ -444,9 +377,18 @@ class ProjectSupervisor extends Component {
                      <span className = "db-pr">View</span>
                    </td>
                    <td>
-                     <span className = "db-pr">PRX</span>
+                     <div><Switch /></div>
                    </td>
-                   
+                   <td>
+                   <span>PRY</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                  </tr>
                  <tr>
                   
@@ -472,38 +414,21 @@ class ProjectSupervisor extends Component {
                      <span className = "db-pr">View</span>
                    </td>
                    <td>
-                     <span className = "db-pr">PRY</span>
+                     <div><SwitchChecked /></div>
                    </td>
+                   <td>
+                   <span>PRZ</span>
+                   </td>
+                   <td>
+                    <div>
+                    <Button
+                      startIcon={<SettingsIcon />}
+                    />
+                    </div>
+                    </td>
                    
                  </tr>
-                 <tr>
-                  
-                  <td>
-                    <div>Project Z</div>
-                  </td>
-                  <td>
-                    <span className = "db-pr active">Active</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Training</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Overview</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Task</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">Sampling</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">View</span>
-                  </td>
-                  <td>
-                    <span className = "db-pr">PRX</span>
-                  </td>
-                  
-                </tr>
+                 
                
                 
                  
@@ -516,4 +441,4 @@ class ProjectSupervisor extends Component {
   }
 }
 
-export default ProjectSupervisor;
+export default ProjectPM;

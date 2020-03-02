@@ -18,6 +18,10 @@
     margin-left: 16px;
 }
 
+.inactive {
+    color: #ff0000;
+}
+
 .db-task-rating {
     border: 1px solid #8080804a;
     padding: 4px 35px 4px 12px;
@@ -31,4 +35,34 @@
     border-radius: 6px;
     background: #efebeb0d;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.MuiSwitch-root { 
+    margin-top: -15px;
+}
+
+.MuiSwitch-switchBase {
+    top: 9px !important;
+    left: 8px !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: #0583bf !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #008ff578 !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+    color: #0583bf !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+    background-color: #008ff578 !important;
+}
+
+.MuiButtonBase-root {
+    box-shadow: none !important;
+    padding: 0 !important;
 }

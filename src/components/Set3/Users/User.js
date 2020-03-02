@@ -23,11 +23,11 @@ import {
   BreadcrumbItem
 } from 'reactstrap';
 import Header from '../Header/Header';
-import UserHeader from './UserHeader';
+import UserHeaderPM from './UserHeaderPM';
 
 import './user.css';
 
-class User extends Component {
+class UsersPM extends Component {
   constructor(props) {
     super(props);
 
@@ -59,7 +59,7 @@ class User extends Component {
     return (
       <div className="animated fadeIn">
           <Header />
-            <UserHeader />
+            <UserHeaderPM />
             <Row className="gr-message">
             <Col md="4"></Col>
             <Col md="4">
@@ -244,10 +244,9 @@ class User extends Component {
                   </tbody>
                 </Table>
                 </div>
-              
       </div>
     );
   }
 }
 
-export default User;
+export default UsersPM;

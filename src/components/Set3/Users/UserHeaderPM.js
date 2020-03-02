@@ -27,7 +27,7 @@ import Toggle from "./Toggle";
 
 import './user.css';
 
-class UserHeader extends React.Component {
+class UserHeaderPM extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -75,7 +75,7 @@ class UserHeader extends React.Component {
                     </div>
                     )}
                 </Toggle></div>
-                  <button className="btn-save"><Link to="/create/user">Create User</Link></button>
+                  <button className="btn-save"><Link to="/pm/create">Create User</Link></button>
                 </Nav>
            </Navbar>
            
@@ -84,4 +84,4 @@ class UserHeader extends React.Component {
     }
 }
 
-export default UserHeader;
+export default UserHeaderPM;

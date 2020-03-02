@@ -65,19 +65,19 @@ class Header extends React.Component {
               <Collapse isOpen={!this.state.collapsed}  navbar>
               <Nav className="d-md-down-none" navbar>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/supervisor" activeClassName="active" className="nav-link" >Dashboard</NavLink>
+                  <NavLink tag={RRNavLink} to="/projectmanager" activeClassName="active" className="nav-link" >Dashboard</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/project/supervisor" activeClassName="active" className="nav-link">Project</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmadmin/project" activeClassName="active" className="nav-link">Project</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/report/supervisor" activeClassName="active" className="nav-link">Report</NavLink>
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Report</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/users" activeClassName="active" className="nav-link">Users</NavLink>
+                  <NavLink tag={RRNavLink} to="/pm/users" activeClassName="active" className="nav-link">Users</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/setup/project" activeClassName="active" className="nav-link">Setup Project</NavLink>
+                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Setup Project</NavLink>
                 </NavItem>
                 </Nav>
                 <Nav className="ml-auto">

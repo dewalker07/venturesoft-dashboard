@@ -37,7 +37,7 @@ import './user.css';
 
 
 
-class CreateUser extends React.Component {
+class CreateUserPM extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -194,4 +194,4 @@ class CreateUser extends React.Component {
     }
 }
 
-export default CreateUser;
+export default CreateUserPM;

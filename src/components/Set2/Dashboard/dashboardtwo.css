@@ -1,5 +1,5 @@
 .table-data {
-    margin: 0 140px;
+    margin-bottom: 30px;
     border: 1px solid #80808042;
     border-radius: 6px;
 }
@@ -7,6 +7,7 @@
 .table {
     border: 1px solid #8484847d;
     border-radius: 16px;
+    margin-bottom: 40px;
 }
 
 .table th {

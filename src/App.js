@@ -41,6 +41,9 @@ import ReviewerOverview from './components/Set2/Project/ReviewerOverview';
 import Tasks from './components/Set2/Project/Tasks';
 
 import DashboardThree from './components/Set3/Dashboard/DashboardThree';
+import ProjectPM from './components/Set3/Project/Project';
+import UsersPM from './components/Set3/Users/User';
+import CreateUserPM from './components/Set3/Users/CreateUserPM';
 
 import './App.css';
 
@@ -89,6 +92,9 @@ function App() {
               <Route exact path="/tasks" name="Tasks" component={Tasks} />
 
               <Route exact path="/projectmanager" name="DashboardThree" component={DashboardThree} />
+              <Route exact path="/pmadmin/project" name="ProjectPM" component={ProjectPM} />
+              <Route exact path="/pm/users" name="UsersPM"  component={UsersPM} />
+              <Route exact path="/pm/create" name="CreateUserPM" component={CreateUserPM} />
             </Switch>
       </HashRouter>
     </div>
