@@ -44,10 +44,10 @@ class SetupProjectHeader extends React.Component {
             <Navbar expand="md" className="prf-view">
               <Nav className="d-md-down-none" navbar>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link" >Client Info</NavLink>
+                  <NavLink tag={RRNavLink} to="/clientinfo" activeClassName="active" className="nav-link" >Client Info</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Input</NavLink>
+                  <NavLink tag={RRNavLink} to="/input" activeClassName="active" className="nav-link">Input</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
                   <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Output</NavLink>

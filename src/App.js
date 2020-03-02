@@ -49,11 +49,9 @@ import PMSettings from './components/Set3/Profile/Settings';
 import PMUserManage from './components/Set3/Users/UserManage';
 import ActivationLink from './components/Set3/Users/ActivationLink';
 import SetupProject from './components/Set3/SetupProject/SetupProject';
+import ProjectSetupInput from './components/Set3/SetupProject/Input';
 
 import './App.css';
-
-
-
 
 function App() {
   return (
@@ -105,7 +103,8 @@ function App() {
               <Route exact path="/pm/settings" name="PMSettings" component={PMSettings} />
               <Route exact path="/pm/usermanage" name="PMUserManage" component={PMUserManage} />
               <Route exact path="/activation/link" name="ActivationLink" component={ActivationLink} />
-              <Route exact path="/setupproject" name="SetupProject" component={SetupProject} />
+              <Route exact path="/clientinfo" name="SetupProject" component={SetupProject} />
+              <Route exact path="/input" name="ProjectSetupInput" component={ProjectSetupInput} />
             </Switch>
       </HashRouter>
     </div>

@@ -1,0 +1,41 @@
+.submit-answer {
+    padding: 8px 10px;
+}
+
+.col-setup-label {
+    margin-top: 6px;
+    float: right;
+}
+
+.col-workflow-label {
+    float: right;
+    font-weight: 600;
+}
+
+.pr-input:focus {
+    border-color: #08ce08;
+}
+
+.add-btn {
+    float: right !important;
+    margin-top: 16px !important;
+    min-width: 0 !important;
+    background: #000 !important;
+    border-radius: 14px !important;
+    color: #fff !important;
+}
+
+.MuiButton-startIcon {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.workflow-label {
+    margin-left: 12%;
+}
+
+.submit-save {
+    float: right;
+    padding: 8px 24px 8px 24px;
+
+}

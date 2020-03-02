@@ -77,7 +77,7 @@ class Header extends React.Component {
                   <NavLink tag={RRNavLink} to="/pm/users" activeClassName="active" className="nav-link">Users</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/setupproject" activeClassName="active" className="nav-link">Setup Project</NavLink>
+                  <NavLink tag={RRNavLink} to="/clientinfo" activeClassName="active" className="nav-link">Setup Project</NavLink>
                 </NavItem>
                 </Nav>
                 <Nav className="ml-auto">
