@@ -50,10 +50,10 @@ class SetupProjectHeader extends React.Component {
                   <NavLink tag={RRNavLink} to="/input" activeClassName="active" className="nav-link">Input</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Output</NavLink>
+                  <NavLink tag={RRNavLink} to="/output" activeClassName="active" className="nav-link">Output</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">API</NavLink>
+                  <NavLink tag={RRNavLink} to="/api" activeClassName="active" className="nav-link">API</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
                   <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link">Seed Upload</NavLink>

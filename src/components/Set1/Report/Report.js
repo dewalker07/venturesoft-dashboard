@@ -66,7 +66,7 @@ class Report extends Component {
             </Col>
             </Row>
             <div className="table-data">
-                <Table>
+                <table className="table sw-table">
                   <thead>
                   <tr>
                     <th>Project</th>
@@ -236,7 +236,7 @@ class Report extends Component {
                    </td>                 
                  </tr>
                   </tbody>
-                </Table>
+                </table>
                 </div>
               
       </div>

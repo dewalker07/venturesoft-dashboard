@@ -1,3 +1,38 @@
+
+.pmpro-table thead th {
+    background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .pmpro-table thead th:first-child {
+    padding-left: 41px;
+    border-top-left-radius: 10px;
+  }
+  .pmpro-table thead th:last-child {
+    padding-right: 41px;
+    border-top-right-radius: 10px;
+  }
+  .pmpro-table tbody {
+    color: black;
+  }
+  .pmpro-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .pmpro-table tbody tr td:first-child {
+    padding-left: 41px;
+  }
+  .pmpro-table tbody tr td:last-child {
+    padding-right: 41px;
+  }
+  .pmpro-table tbody tr:first-child td {
+    border-top: none;
+  }
+
+
 .db-prod {
     border: 1px solid #80808029;
     padding: 4px 14px 4px 14px;

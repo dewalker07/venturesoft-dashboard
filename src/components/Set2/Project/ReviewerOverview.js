@@ -75,7 +75,7 @@ class ReviewerOverview extends Component {
            <div className="gr-message"></div>
 
             <div className = "table-data">
-            <Table >
+            <table className="table so-table">
             <thead>
             <tr>
             <th> Step </th> 
@@ -226,10 +226,8 @@ class ReviewerOverview extends Component {
             </td>
             </tr> 
             </tbody> 
-            </Table> 
+            </table> 
             </div>
-
-            
             </div>
         );
     }

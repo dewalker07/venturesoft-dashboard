@@ -69,7 +69,7 @@ class User extends Component {
             </Col>
             </Row>
             <div className="table-data">
-                <Table>
+                <table className="table user-table">
                   {/* <thead>
                   <tr>
                     <th></th>
@@ -242,7 +242,7 @@ class User extends Component {
                    </tr>
                   
                   </tbody>
-                </Table>
+                </table>
                 </div>
               
       </div>

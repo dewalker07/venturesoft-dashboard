@@ -61,13 +61,11 @@ class ProjectSupervisor extends Component {
             <Row className="gr-message">
             <Col md="4"></Col>
             <Col md="4">
-            <div>
-                
-            </div>
+            <div></div>
             </Col>
             </Row>
             <div className="table-data">
-                <Table>
+                <table className="table pro-table">
                   <thead>
                   <tr>
                     <th>Project</th>
@@ -504,11 +502,8 @@ class ProjectSupervisor extends Component {
                   </td>
                   
                 </tr>
-               
-                
-                 
                   </tbody>
-                </Table>
+                </table>
                 </div>
               
       </div>

@@ -1,23 +1,53 @@
 .table-data {
-    margin-bottom: 30px;
+    margin: 30px;
     border: 1px solid #80808042;
-    border-radius: 6px;
-}
-
-.table {
-    border: 1px solid #8484847d;
     border-radius: 16px;
-    margin-bottom: 40px;
 }
 
-.table th {
+.sup-table thead th {
     background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .sup-table thead th:first-child {
+    padding-left: 161px;
+    border-top-left-radius: 10px;
+  }
+  .sup-table thead th:last-child {
+    padding-right: 161px;
+    border-top-right-radius: 10px;
+  }
+  .sup-table tbody {
+    color: black;
+  }
+  .sup-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .sup-table tbody tr td:first-child {
+    padding-left: 161px;
+  }
+  .sup-table tbody tr td:last-child {
+    padding-right: 161px;
+  }
+  .sup-table tbody tr:first-child td {
+    border-top: none;
+  }
+
+.table-responsive td {
+    border-bottom: 2px dotted #61616173;
 }
 
-.table-responsive td,
-.table-responsive th {
-    border-top: 1px solid #8484847d;
+.table td {
     border-bottom: 2px dotted #61616173;
+    padding: 12px;
+}
+
+.table td, .table th {
+    border-top: 0 !important;
 }
 
 .gr-message {

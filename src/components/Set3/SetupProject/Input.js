@@ -148,7 +148,7 @@ class SetupProjectInput extends React.Component {
                         <div className="form-row">
                         <div className="col-8">
                         <div className="workflow-label">
-                        <Checkbox className="check-production" label='Review' /> 
+                        <Checkbox className="check" label='Review' /> 
                         <Field
                             name="radioGroup"
                             options={["Show Agent Name", "Shoq Task ID"]}

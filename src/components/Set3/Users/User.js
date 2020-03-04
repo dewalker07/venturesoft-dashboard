@@ -68,8 +68,9 @@ class UsersPM extends Component {
             </div>
             </Col>
             </Row>
-            <div className="table-data">
-                <Table>
+           
+                <div className="table-data">
+                <table className="table user-table">
                   {/* <thead>
                   <tr>
                     <th></th>
@@ -86,10 +87,10 @@ class UsersPM extends Component {
                         <div>Agent 1</div>
                     </td>
                     <td>
-                        <span className="pr-user">Settings</span>
+                    <span className="pr-user">Settings</span>    
                     </td>
                     <td>
-                        <span className="pr-user">2fa</span>
+                    <span className="pr-user">2fa</span>
                     </td>
                     <td>
                         <span className="pr-user">Active</span>
@@ -242,7 +243,7 @@ class UsersPM extends Component {
                    </tr>
                   
                   </tbody>
-                </Table>
+                </table>
                 </div>
       </div>
     );

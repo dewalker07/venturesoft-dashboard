@@ -70,7 +70,7 @@ class ProjectPM extends Component {
             </Col>
             </Row>
             <div className="table-data">
-                <Table>
+                <table className="table pmpro-table">
                   <thead>
                   <tr>
                     <th>Project</th>
@@ -428,12 +428,8 @@ class ProjectPM extends Component {
                     </td>
                    
                  </tr>
-                 
-               
-                
-                 
                   </tbody>
-                </Table>
+                </table>
                 </div>
               
       </div>

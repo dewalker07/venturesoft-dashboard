@@ -50,6 +50,8 @@ import PMUserManage from './components/Set3/Users/UserManage';
 import ActivationLink from './components/Set3/Users/ActivationLink';
 import SetupProject from './components/Set3/SetupProject/SetupProject';
 import ProjectSetupInput from './components/Set3/SetupProject/Input';
+import Output from './components/Set3/SetupProject/Output';
+import Api from './components/Set3/SetupProject/Api';
 
 import './App.css';
 
@@ -105,6 +107,8 @@ function App() {
               <Route exact path="/activation/link" name="ActivationLink" component={ActivationLink} />
               <Route exact path="/clientinfo" name="SetupProject" component={SetupProject} />
               <Route exact path="/input" name="ProjectSetupInput" component={ProjectSetupInput} />
+              <Route exact path="/output" name="Output" component={Output} />
+              <Route exact path="/api" name="Api" component={Api} />
             </Switch>
       </HashRouter>
     </div>

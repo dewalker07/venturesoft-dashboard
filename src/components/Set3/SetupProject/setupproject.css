@@ -7,6 +7,10 @@
     float: right;
 }
 
+.col-output-label {
+    margin-top: 6px;
+}
+
 .col-workflow-label {
     float: right;
     font-weight: 600;
@@ -37,5 +41,16 @@
 .submit-save {
     float: right;
     padding: 8px 24px 8px 24px;
+}
 
+.output-save {
+    padding: 8px 24px 8px 24px;
+}
+
+.check-production {
+    padding-left: 16px;
+}
+
+.annotation {
+    margin-bottom: 12px;
 }

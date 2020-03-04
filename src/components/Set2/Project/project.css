@@ -1,3 +1,103 @@
+.pro-table thead th {
+    background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .pro-table thead th:first-child {
+    padding-left: 71px;
+    border-top-left-radius: 10px;
+  }
+  .pro-table thead th:last-child {
+    padding-right: 71px;
+    border-top-right-radius: 10px;
+  }
+  .pro-table tbody {
+    color: black;
+  }
+  .pro-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .pro-table tbody tr td:first-child {
+    padding-left: 71px;
+  }
+  .pro-table tbody tr td:last-child {
+    padding-right: 71px;
+  }
+  .pro-table tbody tr:first-child td {
+    border-top: none;
+  }
+
+  .so-table thead th {
+    background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .so-table thead th:first-child {
+    padding-left: 161px;
+    border-top-left-radius: 10px;
+  }
+  .so-table thead th:last-child {
+    padding-right: 161px;
+    border-top-right-radius: 10px;
+  }
+  .so-table tbody {
+    color: black;
+  }
+  .so-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .so-table tbody tr td:first-child {
+    padding-left: 161px;
+  }
+  .so-table tbody tr td:last-child {
+    padding-right: 161px;
+  }
+  .so-table tbody tr:first-child td {
+    border-top: none;
+  }
+
+  .task-table thead th {
+    background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .task-table thead th:first-child {
+    padding-left: 71px;
+    border-top-left-radius: 10px;
+  }
+  .task-table thead th:last-child {
+    padding-right: 71px;
+    border-top-right-radius: 10px;
+  }
+  .task-table tbody {
+    color: black;
+  }
+  .task-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .task-table tbody tr td:first-child {
+    padding-left: 71px;
+  }
+  .task-table tbody tr td:last-child {
+    padding-right: 71px;
+  }
+  .task-table tbody tr:first-child td {
+    border-top: none;
+  }
+
+
 .db-prod {
     border: 1px solid #80808029;
     padding: 4px 14px 4px 14px;
@@ -16,6 +116,10 @@
 
 .db-total {
     margin-left: 16px;
+}
+
+.db-task-rating-center {
+   text-align: center;
 }
 
 .db-task-rating {

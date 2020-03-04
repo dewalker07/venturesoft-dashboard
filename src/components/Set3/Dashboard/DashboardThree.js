@@ -71,7 +71,7 @@ class DashboardThree extends Component {
             <Col md = "3"> </Col> 
             <div className = "table-data">
 
-            <Table className="">
+            <table className="table pm-table">
             <thead>
             <tr>
             <th> Project </th> 
@@ -337,7 +337,7 @@ class DashboardThree extends Component {
             </tr> 
 
             </tbody> 
-            </Table> 
+            </table> 
             </div>
 
             

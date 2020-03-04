@@ -67,7 +67,7 @@ class Project extends Component {
             </Col>
             </Row>
             <div className="table-data">
-                <Table>
+                <table className="table sw-table">
                   <thead>
                   <tr>
                     <th>Project</th>
@@ -225,7 +225,7 @@ class Project extends Component {
                   
                 </tr>
                   </tbody>
-                </Table>
+                </table>
                 </div>
               
       </div>

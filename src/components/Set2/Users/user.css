@@ -1,3 +1,36 @@
+.user-table thead th {
+    background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .user-table thead th:first-child {
+    padding-left: 161px;
+    border-top-left-radius: 10px;
+  }
+  .user-table thead th:last-child {
+    padding-right: 161px;
+    border-top-right-radius: 10px;
+  }
+  .user-table tbody {
+    color: black;
+  }
+  .user-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .user-table tbody tr td:first-child {
+    padding-left: 161px;
+  }
+  .user-table tbody tr td:last-child {
+    padding-right: 161px;
+  }
+  .user-table tbody tr:first-child td {
+    border-top: none;
+  }
+
 .pr-user {
     border: 1px solid #80808029;
     padding: 4px 26px 4px 26px;

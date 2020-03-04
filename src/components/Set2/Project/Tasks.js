@@ -74,9 +74,10 @@ class Tasks extends Component {
            </Navbar>
 
            <div className="gr-message"></div>
-
-            <div className = "table-data">
-            <Table>
+            
+        
+        <div className = "table-data">
+            <table className="table task-table">
             <thead>
             <tr>
             <th> Production </th> 
@@ -109,7 +110,7 @@ class Tasks extends Component {
             </td> 
             <td>
             <span></span>
-            <span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span>
+            <center><span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span></center>
             </td>
             </tr>
             </tbody> 
@@ -145,15 +146,15 @@ class Tasks extends Component {
             <span className = "db-total"> 269 </span>
             </td> 
             <td>
-            <span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span>
+            <center><span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span></center>
             </td>
             </tr>
             </tbody> 
             
             <thead>
             <tr>
-            <th> Production </th> 
-            <th>  <FormikDatePicker /> </th> 
+            <th>Production</th> 
+            <th><FormikDatePicker /></th> 
             </tr> 
             </thead>
             <tbody>
@@ -181,7 +182,7 @@ class Tasks extends Component {
             <span className = "db-total"> 269 </span>
             </td> 
             <td>
-            <span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span>
+            <center><span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span></center>
             </td>
             </tr>
             </tbody> 
@@ -217,12 +218,12 @@ class Tasks extends Component {
             <span className = "db-total"> 269 </span>
             </td> 
             <td>
-            <span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span>
+            <center><span className = "db-task-rating"> 0 0 0 0 0 0 45 56 78 90 0 0 0 0 </span></center>
             </td>
             </tr>
             </tbody> 
 
-            </Table> 
+            </table> 
             
             </div>
             </div>

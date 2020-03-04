@@ -68,9 +68,9 @@ class Dashboard extends Component {
             </Row>
             <Col md="4"></Col>
             <div className="table-data">
-                <Table>
+                <table className="table sw-table">
                   <thead>
-                  <tr>
+                  <tr className="tble-bg">
                     <th>Project</th>
                     <th>Tasks Available</th>
                     <th>Task Completed</th>
@@ -237,7 +237,7 @@ class Dashboard extends Component {
                   
                   
                   </tbody>
-                </Table>
+                </table>
                 </div>
               
       </div>
