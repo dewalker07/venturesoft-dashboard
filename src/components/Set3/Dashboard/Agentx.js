@@ -30,7 +30,7 @@ import '../Project/project.css';
 
 
 
-class Agentx extends React.Component {
+class PmAgentx extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false }
@@ -55,17 +55,17 @@ class Agentx extends React.Component {
                   <h4 className="role">Role</h4>
                 </NavItem> 
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/supervisorx" activeClassName="active" className="nav-link" >Supervisor</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmsupervisorx" activeClassName="active" className="nav-link" >Supervisor</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/agentx" activeClassName="active" className="nav-link">Agent</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmagentx" activeClassName="active" className="nav-link">Agent</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/reviewerx" activeClassName="active" className="nav-link">Reviewer</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmreviewerx" activeClassName="active" className="nav-link">Reviewer</NavLink>
                 </NavItem>
                 </Nav>
                 <Nav className="ml-btn">
-                  <button className="btn-stopwork"><Link className="btn-stop" to="/superproject">Stop Work</Link></button>
+                  <button className="btn-stopwork"><Link className="btn-stop" to="/pmsupervisor">Stop Work</Link></button>
                 </Nav>
            </Navbar>
            <Row>
@@ -95,36 +95,48 @@ class Agentx extends React.Component {
             >
                 {({ errors, status, touched }) => (
                     <Form>
-                         <div className="form-group">
-                            <label htmlFor="imageurl" className="col-form-label">Image Url:</label>
-                            <Field name="imageurl" type="text" placeholder="www.images.com" className={'form-control pr-input' + (errors.imageurl && touched.imageurl ? ' is-invalid' : '')} />
-                            <ErrorMessage name="imageurl" component="div" className="invalid-feedback" />
+                    <div className="form-row">
+                      <div className="col-2">
+                      <label htmlFor="imageurl" className="col-review-label">Image Url:</label>
+                      </div>
+                      <div className="col-10">
+                      <Field name="imageurl" type="text" placeholder="www.images.com" className={'form-control pr-input' + (errors.imageurl && touched.imageurl ? ' is-invalid' : '')} />
+                          <ErrorMessage name="imageurl" component="div" className="invalid-feedback" />
+                      </div>
+                    </div>
+                       
+                      <div className="form-row">
+                        <div className="col-2">
+                           <label htmlFor="taskid" className="col-review-label">Task ID:</label>
                         </div>
+                        <div className="col-10">
+                          <Field name="taskid" type="text" placeholder="www.images.com" className={'form-control pr-input' + (errors.taskid && touched.taskid ? ' is-invalid' : '')} />
+                          <ErrorMessage name="taskid" component="div" className="invalid-feedback" />
+                        </div>        
+                      </div>
 
-                        <div className="form-group">
-                            <label htmlFor="taskid" className="col-form-label">Task ID:</label>
-                            <Field name="taskid" type="text" placeholder="www.images.com" className={'form-control pr-input' + (errors.taskid && touched.taskid ? ' is-invalid' : '')} />
-                            <ErrorMessage name="taskid" component="div" className="invalid-feedback" />
+                      <div className="form-row">
+                        <div className="col-2">
+                        <label htmlFor="trainingmaterial" className="col-review-label">Training Material:</label>
                         </div>
-
-                        <div className="form-group">
-                            <label htmlFor="trainingmaterial" className="col-form-label">Training Material:</label>
-                            <Field name="trainingmaterial" type="text" placeholder="docs.google.com" className={'form-control pr-input' + (errors.trainingmaterial && touched.trainingmaterial ? ' is-invalid' : '')} />
-                            <ErrorMessage name="trainingmaterial" component="div" className="invalid-feedback" />
+                        <div className="col-10">
+                        <Field name="trainingmaterial" type="text" placeholder="docs.google.com" className={'form-control pr-input' + (errors.trainingmaterial && touched.trainingmaterial ? ' is-invalid' : '')} />
+                          <ErrorMessage name="trainingmaterial" component="div" className="invalid-feedback" />
                         </div>
+                      </div>
 
-                        <div className="form-group">
-                        <Input type="textarea" name="text" placeholder="Image annotation tool with image will load here for annotating" />
-                        </div>
+                      <div className="form-row">
+                      <Input type="textarea" name="text" placeholder="Image annotation tool with image will load here for annotating" />
+                      </div>
 
-                        <div className="form-group">
-                            <label htmlFor="comments" className="col-form-label">Comments</label>
-                            <Input type="textarea" name="text" className="comment-textbox" placeholder="Write any comments for the task or if any specific requirement" />
-                            <ErrorMessage name="comments" component="div" className="invalid-feedback" />
-                        </div>
+                      <div className="form-row">
+                          <label htmlFor="comments" className="col-form-label">Comments</label>
+                          <Input type="textarea" name="text" className="comment-textbox" placeholder="Write any comments for the task or if any specific requirement" />
+                          <ErrorMessage name="comments" component="div" className="invalid-feedback" />
+                      </div>
 
-                        <button className="btn-submit-ans">Submit Answer</button>
-                    </Form>
+                      <button className="btn-submit-ans">Submit Answer</button>
+                  </Form>
                 )}
             </Formik>
             </Col>
@@ -135,4 +147,4 @@ class Agentx extends React.Component {
     }
 }
 
-export default Agentx;
+export default PmAgentx;

@@ -31,7 +31,7 @@ import '../Project/project.css';
 
 
 
-class Agent extends React.Component {
+class PmAgent extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -91,4 +91,4 @@ class Agent extends React.Component {
     }
 }
 
-export default Agent;
+export default PmAgent;

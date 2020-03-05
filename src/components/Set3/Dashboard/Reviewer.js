@@ -29,7 +29,7 @@ import SuperProjectHeader from './SuperProjectHeader';
 
 import '../Project/project.css';
 
-class Reviewer extends React.Component {
+class PmReviewer extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -89,4 +89,4 @@ class Reviewer extends React.Component {
     }
 }
 
-export default Reviewer;
+export default PmReviewer;

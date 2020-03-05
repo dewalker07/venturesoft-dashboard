@@ -65,7 +65,7 @@ class SuperProjectx extends React.Component {
                 </NavItem>
                 </Nav>
                 <Nav className="ml-btn">
-                  <button className="btn-stopwork"><Link className="btn-stop" to="/superproject">Stop Work</Link></button>
+                  <button className="btn-stopwork"><Link className="btn-stop" to="/pmsupervisor">Stop Work</Link></button>
                 </Nav>
            </Navbar>
            <Row>

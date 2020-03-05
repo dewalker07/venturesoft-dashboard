@@ -31,7 +31,7 @@ import '../Project/project.css';
 
 
 
-class Supervisor extends React.Component {
+class PmSupervisor extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false, country: '' }
@@ -91,4 +91,4 @@ class Supervisor extends React.Component {
     }
 }
 
-export default Supervisor;
+export default PmSupervisor;

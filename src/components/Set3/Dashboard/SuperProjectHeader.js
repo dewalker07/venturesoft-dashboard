@@ -47,17 +47,17 @@ class SuperProjectHeader extends React.Component {
                   <h4 className="role">Role</h4>
                 </NavItem> 
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/projectx/supervisor" activeClassName="active" className="nav-link" >Supervisor</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmsupervisor" activeClassName="active" className="nav-link" >Supervisor</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/agent" activeClassName="active" className="nav-link">Agent</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmagent" activeClassName="active" className="nav-link">Agent</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/reviewer" activeClassName="active" className="nav-link">Reviewer</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmreviewer" activeClassName="active" className="nav-link">Reviewer</NavLink>
                 </NavItem>
                 </Nav>
                 <Nav className="ml-btn">
-                  <button className="btn-startwork"><Link className="btn-start" to="/supervisorx">Start Work</Link></button>
+                  <button className="btn-startwork"><Link className="btn-start" to="/pmsupervisorx">Start Work</Link></button>
                 </Nav>
            </Navbar>
            

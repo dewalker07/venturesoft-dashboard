@@ -20,6 +20,10 @@
     border-color: #08ce08;
 }
 
+.add-icon {
+    margin-top: -1%;
+}
+
 .add-btn {
     float: right !important;
     margin-top: 16px !important;

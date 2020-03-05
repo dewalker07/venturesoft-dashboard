@@ -85,7 +85,7 @@ class Output extends React.Component {
                             <Field name="input" type="text" placeholder="Format" className={'form-control' + (errors.input && touched.input ? ' is-invalid' : '')} />
                             <ErrorMessage name="input" component="div" className="invalid-feedback" />
                         </div>
-                        <div className="col-1">
+                        <div className="col-1 add-icon">
                            <Button className="add-btn" startIcon={<AddIcon />} />
                         </div>
                         </div>
