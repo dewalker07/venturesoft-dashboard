@@ -24,7 +24,7 @@ import { NavLink as RRNavLink } from 'react-router-dom';
 
 import './project.css';
 
-class PmOverviewTaskHeader extends React.Component {
+class PmTaskHeader extends React.Component {
     constructor(props) {
         super(props);
         this.state = { isOpen: false }
@@ -44,16 +44,16 @@ class PmOverviewTaskHeader extends React.Component {
             <Navbar expand="md" className="prf-view">
               <Nav className="d-md-down-none" navbar>
               <NavItem>
-                  <h4 className="role">Project x</h4>
+                  <h4 className="role">Role</h4>
                 </NavItem> 
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmoverview/supervisor" activeClassName="active" className="nav-link">Supervisor</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmtasks/supervisor" activeClassName="active" className="nav-link">Supervisor</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmoverview/agent" activeClassName="active" className="nav-link" >Agent</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmtasks/agent" activeClassName="active" className="nav-link" >Agent</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmoverview/reviewer" activeClassName="active" className="nav-link" >Reviewer</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmtasks/reviewer" activeClassName="active" className="nav-link" >Reviewer</NavLink>
                 </NavItem>
                 </Nav>
            </Navbar>
@@ -63,4 +63,4 @@ class PmOverviewTaskHeader extends React.Component {
     }
 }
 
-export default PmOverviewTaskHeader;
+export default PmTaskHeader;

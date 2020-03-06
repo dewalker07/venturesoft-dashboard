@@ -25,9 +25,9 @@ import {
 import Header from '../Header/Header';
 
 import './project.css';
-import OverviewTaskHeader from './OverviewTaskHeader';
+import PmOverviewTaskHeader from './OverviewTaskHeader';
 
-class ReviewerOverview extends Component {
+class PmReviewerOverview extends Component {
     constructor(props) {
         super(props);
 
@@ -60,14 +60,14 @@ class ReviewerOverview extends Component {
 
             <div className = "animated fadeIn" >
             <Header />
-            <OverviewTaskHeader />
+            <PmOverviewTaskHeader />
             <Navbar expand="md">
               <Nav className="d-md-down-none" navbar>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/overview" activeClassName="active" className="nav-link">Overview</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmoverview/supervisor" activeClassName="active" className="nav-link">Overview</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link" >Tasks</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmtasks/supervisor" activeClassName="active" className="nav-link" >Tasks</NavLink>
                 </NavItem>
                 </Nav>
            </Navbar>
@@ -75,7 +75,7 @@ class ReviewerOverview extends Component {
            <div className="gr-message"></div>
 
             <div className = "table-data">
-            <Table >
+            <table className="table so-table">
             <thead>
             <tr>
             <th> Step </th> 
@@ -226,13 +226,11 @@ class ReviewerOverview extends Component {
             </td>
             </tr> 
             </tbody> 
-            </Table> 
+            </table> 
             </div>
-
-            
             </div>
         );
     }
 }
 
-export default ReviewerOverview;
+export default PmReviewerOverview;

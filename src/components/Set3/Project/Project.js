@@ -98,13 +98,13 @@ class ProjectPM extends Component {
                       <span className = "db-pr">Training</span>
                     </td>
                     <td>
-                      <span className = "db-pr"><Link to="#">Overview</Link></span>
+                      <span className = "db-pr"><Link to="/pmoverview/supervisor">Overview</Link></span>
                     </td>
                     <td>
-                      <span className = "db-pr"><Link to="#">Task</Link></span>
+                      <span className = "db-pr"><Link to="/pmtasks/supervisor">Task</Link></span>
                     </td>
                     <td>
-                      <span className = "db-pr">Sampling</span>
+                      <span className = "db-pr"><Link to="/pm/sampling">Sampling</Link></span>
                     </td>
                     <td>
                       <span className = "db-pr">View</span>

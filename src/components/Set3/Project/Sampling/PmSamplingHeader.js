@@ -22,12 +22,13 @@ import {
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
 
-import './project.css';
 
-class PmOverviewTaskHeader extends React.Component {
+class PmSamplingHeader extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { isOpen: false }
+        this.state = { 
+            isOpen: false,
+         }
     }
     
     toggleDropdown = () => {
@@ -35,26 +36,20 @@ class PmOverviewTaskHeader extends React.Component {
           isOpen: !prevState.isOpen,
         }));
       }
-    
+
+
+  
     render() { 
         const {isOpen} = this.state;
         
         return ( 
             <div>
             <Navbar expand="md" className="prf-view">
-              <Nav className="d-md-down-none" navbar>
-              <NavItem>
+                <Nav>
                   <h4 className="role">Project x</h4>
-                </NavItem> 
-                <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmoverview/supervisor" activeClassName="active" className="nav-link">Supervisor</NavLink>
-                </NavItem>
-                <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmoverview/agent" activeClassName="active" className="nav-link" >Agent</NavLink>
-                </NavItem>
-                <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmoverview/reviewer" activeClassName="active" className="nav-link" >Reviewer</NavLink>
-                </NavItem>
+                </Nav> 
+                <Nav className="ml-sampling-left">
+                  <button type="submit" className="btn-save">Sampling</button>
                 </Nav>
            </Navbar>
            
@@ -63,4 +58,4 @@ class PmOverviewTaskHeader extends React.Component {
     }
 }
 
-export default PmOverviewTaskHeader;
+export default PmSamplingHeader;

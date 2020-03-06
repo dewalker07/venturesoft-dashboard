@@ -47,6 +47,12 @@ import PmReviewer from './components/Set3/Dashboard/Reviewer';
 import PmSupervisorx from './components/Set3/Dashboard/Supervisorx';
 import PmAgentx from './components/Set3/Dashboard/Agentx';
 import PmReviewerx from './components/Set3/Dashboard/Reviewerx';
+import PmOverview from './components/Set3/Project/Overview';
+import PmOverviewAgent from './components/Set3/Project/AgentOverview';
+import PmOverviewReviewer from './components/Set3/Project/ReviewerOverview';
+import PmTasks from './components/Set3/Project/Tasks';
+import PmAgentTask from './components/Set3/Project/PmAgentTask';
+import PmReviewerTask from './components/Set3/Project/PmReviewerTask';
 import ProjectPM from './components/Set3/Project/Project';
 import UsersPM from './components/Set3/Users/User';
 import CreateUserPM from './components/Set3/Users/CreateUserPM';
@@ -59,6 +65,7 @@ import ProjectSetupInput from './components/Set3/SetupProject/Input';
 import Output from './components/Set3/SetupProject/Output';
 import Api from './components/Set3/SetupProject/Api';
 import SeedUpload from './components/Set3/SetupProject/SeedUpload';
+import PmSampling from './components/Set3/Project/Sampling/PmSampling';
 
 import './App.css';
 
@@ -113,6 +120,12 @@ function App() {
               <Route exact path="/pmsupervisorx" name="PmSupervisorx" component={PmSupervisorx} />
               <Route exact path="/pmagentx" name="PmAgentx" component={PmAgentx} />
               <Route exact path="/pmreviewerx" name="PmReviewerx" component={PmReviewerx} />
+              <Route exact path="/pmoverview/supervisor" name="PmOverview" component={PmOverview} />
+              <Route exact path="/pmoverview/agent" name="PmOverviewAgent" component={PmOverviewAgent} />
+              <Route exact path="/pmoverview/reviewer" name="PmOverviewReviewer" component={PmOverviewReviewer} />
+              <Route exact path="/pmtasks/supervisor" name="PmTasks" component={PmTasks} />
+              <Route exact path="/pmtasks/agent" name="PmAgentTask" component={PmAgentTask} />
+              <Route exact path="/pmtasks/reviewer" name="PmReviewerTask" component={PmReviewerTask} />
               <Route exact path="/pmadmin/project" name="ProjectPM" component={ProjectPM} />
               <Route exact path="/pm/users" name="UsersPM"  component={UsersPM} />
               <Route exact path="/pm/create" name="CreateUserPM" component={CreateUserPM} />
@@ -125,6 +138,7 @@ function App() {
               <Route exact path="/output" name="Output" component={Output} />
               <Route exact path="/api" name="Api" component={Api} />
               <Route exact path="/seedupload" name="SeedUpload" component={SeedUpload} />
+              <Route exact path="/pm/sampling" name="PmSampling" component={PmSampling} />
             </Switch>
       </HashRouter>
     </div>

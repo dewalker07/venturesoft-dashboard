@@ -32,6 +32,39 @@
     border-top: none;
   }
 
+  .so-table thead th {
+    background-color: #00800014;
+    border-bottom: 1px solid #80808042;
+    font-weight: 600;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .so-table thead th:first-child {
+    padding-left: 161px;
+    border-top-left-radius: 10px;
+  }
+  .so-table thead th:last-child {
+    padding-right: 161px;
+    border-top-right-radius: 10px;
+  }
+  .so-table tbody {
+    color: black;
+  }
+  .so-table tbody tr td {
+    border-color: #c5c5c5;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .so-table tbody tr td:first-child {
+    padding-left: 161px;
+  }
+  .so-table tbody tr td:last-child {
+    padding-right: 161px;
+  }
+  .so-table tbody tr:first-child td {
+    border-top: none;
+  }
+
 
 .db-prod {
     border: 1px solid #80808029;
@@ -101,3 +134,69 @@
     box-shadow: none !important;
     padding: 0 !important;
 }
+
+.ml-sampling-left {
+  margin-left: 74%;
+}
+
+.sample-flex {
+  display: flex;
+  padding: 8px;
+}
+
+.sample-flex span {
+  padding: 8px;
+}
+
+.status {
+  margin-top: 8px !important;
+  border: 1px solid #80808052;
+  padding: 10px 30px 10px 30px;
+  border-radius: 7px;
+}
+
+.inprogress label {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.btn-sample {
+  padding: 10px 12px 10px 12px;
+  background-color: #38a1ff;
+}
+
+.btn-cancel {
+  background-color: #fff;
+  color: #38a1ff;
+  border: 1px solid #38a1ff;
+}
+.has-taskid .form-control {
+  padding-left: 2.375rem;
+  font-size: 16px;
+}
+
+.has-taskid .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.task-row, .sample-row {
+  border-bottom: 1px solid #80808042;
+}
+
+.task-row {
+  background-color: #00800014;
+}
+
+.MuiSvgIcon-root { 
+  margin-left: 30%;
+  cursor: pointer;
+}
+

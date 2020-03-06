@@ -28,7 +28,7 @@ import Header from '../Header/Header';
 import './project.css';
 import PmTaskHeader from './PmTaskHeader';
 
-class PmTasks extends Component {
+class PmReviewerTask extends Component {
     constructor(props) {
         super(props);
 
@@ -68,7 +68,7 @@ class PmTasks extends Component {
                   <NavLink tag={RRNavLink} to="/pmoverview/supervisor" activeClassName="active" className="nav-link">Overview</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/pmtasks/supervisor" activeClassName="active" className="nav-link" >Tasks</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmtasks/reviewer" activeClassName="active" className="nav-link" >Tasks</NavLink>
                 </NavItem>
                 </Nav>
            </Navbar>
@@ -231,4 +231,4 @@ class PmTasks extends Component {
     }
 }
 
-export default PmTasks;
+export default PmReviewerTask;

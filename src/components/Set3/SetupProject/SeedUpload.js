@@ -20,6 +20,7 @@ import {
   InputGroup,
   InputGroupAddon
 } from 'reactstrap';
+import AttachmentIcon from '@material-ui/icons/Attachment';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -50,46 +51,23 @@ class SeedUpload extends React.Component {
             <div>
             <Header />
             <SetupProjectHeader />
-           <Row>
-                <Col md="3"></Col>
-                <Col md="6" className="production-form">
-           <Formik
-                initialValues={{
-                    // email: '',
-                    password: '',
-                    date: '2019-10-24T22:00:00.000Z'
-                }}
-                validationSchema={Yup.object().shape({
-                    // email: Yup.string()
-                    //     .email('Email is invalid')
-                    //     .required('Email is required'),
-                    facode: Yup.number()
-                         .min(4, '2FACODE must be 4 digit number')
-                         .required('Code required')
-                })}
-                onSubmit={fields => {
-                    alert('SUCCESS!! :-)\n\n' + JSON.stringify(fields, null, 4))
-                }}
-            >
-                {({ errors, status, touched }) => (
-                    <Form>
-                        <div className="form-row">
-                            <div className="col-3">
-                            <label htmlFor="Input Name,Url" className="col-workflow-label">Input Name,Url</label>
-                            </div>
-                        </div>
-
-                    <Field 
-                       name="seedupload" 
-                       type="file" 
-                       placeholder="Attach File" 
-                       className={'form-control pr-input' + (errors.url && touched.url ? ' is-invalid' : '')} />
-                    </Form>
-                )}
-            </Formik>
-            </Col>
-            <Col md="3"></Col>
-            </Row>
+       
+            <div className="form-row">
+            <div className="col-3"></div>
+            <div className="col-6">
+              <label>Input Name,url </label>
+              <div className="form-group has-search">
+                 <div><span className="fa fa-paperclip form-control-feedback"></span>
+                  <input type="text" className="form-control" placeholder="Attachfile" />
+                  <button className="btn-upload">Upload</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+            </div>
+            </div>
+          
+             
             <div className = "table-data">
 
             <table className="table pm-table">
