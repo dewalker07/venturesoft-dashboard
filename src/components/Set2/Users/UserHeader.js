@@ -62,8 +62,6 @@ class UserHeader extends React.Component {
                   <input type="text" className="form-control" placeholder="User" />
                 </div>
                 </NavItem>
-               
-                
                 </Nav>
                 <Nav className="ml-user-left">
                 <div className="toggle">

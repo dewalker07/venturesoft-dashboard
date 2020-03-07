@@ -23,6 +23,7 @@ import ReviewerReport from './components/Set2/Reports/ReviwerReport';
 import User from './components/Set2/Users/User';
 import CreateUser from './components/Set2/Users/CreateUser';
 import UserManage from './components/Set2/Users/UserManage';
+import ActivationLinkManage from './components/Set2/Users/ActivationLink';
 
 import Role from './components/Set2/Profile/Role';
 import SupervisorSettings from './components/Set2/Profile/Settings';
@@ -100,6 +101,7 @@ function App() {
               <Route exact path="/users" name="User" component={User} />
               <Route exact path="/create/user" name="CreateUser" component={CreateUser} />
               <Route exact path="/usermanage" name="UserManage" component={UserManage} />
+              <Route exact path="/activationlink" name="ActivationLinkManage" component={ActivationLinkManage} />
 
               <Route exact path="/superproject" name="SuperProject" component={SuperProject} />
               <Route exact path="/projectx/supervisor" name="Supervisor" component={Supervisor} />

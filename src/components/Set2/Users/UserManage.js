@@ -48,7 +48,7 @@ class UserManage extends Component {
                         <Checkbox label='Deactivate' /> 
                         </div>
                         <div>
-                         <button className="btn-ok"><Link to="/users">Ok</Link></button>
+                         <button className="btn-ok"><Link to="/activationlink">Ok</Link></button>
                         </div>           
                     </Form>
                 )}
