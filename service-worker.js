@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/venturesoft-dashboard/precache-manifest.14179d41c4c5acb3a4ce09e8d92aaf4b.js"
+  "/venturesoft-dashboard/precache-manifest.9684fa709d45ef708912acf8a6255ad3.js"
 );
 
 self.addEventListener('message', (event) => {
