@@ -78,7 +78,6 @@ class ReportSupervisor extends Component {
                   </thead>
                   <tbody>
                   <tr>
-                   
                     <td>
                       <div><Link to="/production/reports">Project X</Link></div>
                     </td>
