@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/venturesoft-dashboard/static/css/main.b6a4c1e1.chunk.css",
-    "main.js": "/venturesoft-dashboard/static/js/main.5b496ff7.chunk.js",
-    "main.js.map": "/venturesoft-dashboard/static/js/main.5b496ff7.chunk.js.map",
+    "main.css": "/venturesoft-dashboard/static/css/main.386e7088.chunk.css",
+    "main.js": "/venturesoft-dashboard/static/js/main.e17bdea4.chunk.js",
+    "main.js.map": "/venturesoft-dashboard/static/js/main.e17bdea4.chunk.js.map",
     "runtime-main.js": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js",
     "runtime-main.js.map": "/venturesoft-dashboard/static/js/runtime-main.49ee9395.js.map",
     "static/js/2.e452f8a4.chunk.js": "/venturesoft-dashboard/static/js/2.e452f8a4.chunk.js",
     "static/js/2.e452f8a4.chunk.js.map": "/venturesoft-dashboard/static/js/2.e452f8a4.chunk.js.map",
     "index.html": "/venturesoft-dashboard/index.html",
-    "precache-manifest.290c594f628fd90384ac7c0d3ce624c7.js": "/venturesoft-dashboard/precache-manifest.290c594f628fd90384ac7c0d3ce624c7.js",
+    "precache-manifest.467d14a7cc3499e64065f334b1c62fe4.js": "/venturesoft-dashboard/precache-manifest.467d14a7cc3499e64065f334b1c62fe4.js",
     "service-worker.js": "/venturesoft-dashboard/service-worker.js",
-    "static/css/main.b6a4c1e1.chunk.css.map": "/venturesoft-dashboard/static/css/main.b6a4c1e1.chunk.css.map",
+    "static/css/main.386e7088.chunk.css.map": "/venturesoft-dashboard/static/css/main.386e7088.chunk.css.map",
     "static/js/2.e452f8a4.chunk.js.LICENSE.txt": "/venturesoft-dashboard/static/js/2.e452f8a4.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/venturesoft-dashboard/static/media/logo.879dafbc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.49ee9395.js",
     "static/js/2.e452f8a4.chunk.js",
-    "static/css/main.b6a4c1e1.chunk.css",
-    "static/js/main.5b496ff7.chunk.js"
+    "static/css/main.386e7088.chunk.css",
+    "static/js/main.e17bdea4.chunk.js"
   ]
 }
