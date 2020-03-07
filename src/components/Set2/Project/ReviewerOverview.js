@@ -90,13 +90,13 @@ class ReviewerOverview extends Component {
             <span className = "db-prod"> Production </span>
             </td> 
             <td>
-            <span className = "db-pr"> 10 </span>
+            <div className = "db-pr"> 10 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 2000 </span> 
+            <div className = "db-pr"> 2000 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 3000 </span>
+            <div className = "db-pr"> 3000 </div>
             </td>
             </tr> 
              <tr>
@@ -104,13 +104,42 @@ class ReviewerOverview extends Component {
             <span className = "db-review"> Review </span>
             </td> 
             <td>
-            <span className = "db-pr"> 4 </span>
+            <div className = "db-pr"> 4 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 300 </span> 
+            <div className = "db-pr"> 300 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 1700 </span>
+            <div className = "db-pr"> 1700 </div>
+            </td>
+            </tr> 
+
+            <tr>
+            <td>
+            <span className = "db-prod"> Production </span>
+            </td> 
+            <td>
+            <div className = "db-pr"> 10 </div>
+            </td> 
+            <td>
+            <div className = "db-pr"> 2000 </div> 
+            </td> 
+            <td>
+            <div className = "db-pr"> 3000 </div>
+            </td>
+            </tr> 
+             <tr>
+            <td>
+            <span className = "db-review"> Review </span>
+            </td> 
+            <td>
+            <div className = "db-pr"> 4 </div>
+            </td> 
+            <td>
+            <div className = "db-pr"> 300 </div> 
+            </td> 
+            <td>
+            <div className = "db-pr"> 1700 </div>
             </td>
             </tr> 
             <tr>
@@ -118,13 +147,13 @@ class ReviewerOverview extends Component {
             <span className = "db-prod"> Production </span>
             </td> 
             <td>
-            <span className = "db-pr"> 10 </span>
+            <div className = "db-pr"> 10 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 2000 </span> 
+            <div className = "db-pr"> 2000 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 3000 </span>
+            <div className = "db-pr"> 3000 </div>
             </td>
             </tr> 
              <tr>
@@ -132,13 +161,42 @@ class ReviewerOverview extends Component {
             <span className = "db-review"> Review </span>
             </td> 
             <td>
-            <span className = "db-pr"> 4 </span>
+            <div className = "db-pr"> 4 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 300 </span> 
+            <div className = "db-pr"> 300 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 1700 </span>
+            <div className = "db-pr"> 1700 </div>
+            </td>
+            </tr> 
+
+            <tr>
+            <td>
+            <span className = "db-prod"> Production </span>
+            </td> 
+            <td>
+            <div className = "db-pr"> 10 </div>
+            </td> 
+            <td>
+            <div className = "db-pr"> 2000 </div> 
+            </td> 
+            <td>
+            <div className = "db-pr"> 3000 </div>
+            </td>
+            </tr> 
+             <tr>
+            <td>
+            <span className = "db-review"> Review </span>
+            </td> 
+            <td>
+            <div className = "db-pr"> 4 </div>
+            </td> 
+            <td>
+            <div className = "db-pr"> 300 </div> 
+            </td> 
+            <td>
+            <div className = "db-pr"> 1700 </div>
             </td>
             </tr> 
             <tr>
@@ -146,13 +204,13 @@ class ReviewerOverview extends Component {
             <span className = "db-prod"> Production </span>
             </td> 
             <td>
-            <span className = "db-pr"> 10 </span>
+            <div className = "db-pr"> 10 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 2000 </span> 
+            <div className = "db-pr"> 2000 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 3000 </span>
+            <div className = "db-pr"> 3000 </div>
             </td>
             </tr> 
              <tr>
@@ -160,27 +218,28 @@ class ReviewerOverview extends Component {
             <span className = "db-review"> Review </span>
             </td> 
             <td>
-            <span className = "db-pr"> 4 </span>
+            <div className = "db-pr"> 4 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 300 </span> 
+            <div className = "db-pr"> 300 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 1700 </span>
+            <div className = "db-pr"> 1700 </div>
             </td>
             </tr> 
+
             <tr>
             <td>
             <span className = "db-prod"> Production </span>
             </td> 
             <td>
-            <span className = "db-pr"> 10 </span>
+            <div className = "db-pr"> 10 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 2000 </span> 
+            <div className = "db-pr"> 2000 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 3000 </span>
+            <div className = "db-pr"> 3000 </div>
             </td>
             </tr> 
              <tr>
@@ -188,41 +247,13 @@ class ReviewerOverview extends Component {
             <span className = "db-review"> Review </span>
             </td> 
             <td>
-            <span className = "db-pr"> 4 </span>
+            <div className = "db-pr"> 4 </div>
             </td> 
             <td>
-            <span className = "db-pr"> 300 </span> 
+            <div className = "db-pr"> 300 </div> 
             </td> 
             <td>
-            <span className = "db-pr"> 1700 </span>
-            </td>
-            </tr>
-            <tr>
-            <td>
-            <span className = "db-prod"> Production </span>
-            </td> 
-            <td>
-            <span className = "db-pr"> 10 </span>
-            </td> 
-            <td>
-            <span className = "db-pr"> 2000 </span> 
-            </td> 
-            <td>
-            <span className = "db-pr"> 3000 </span>
-            </td>
-            </tr> 
-             <tr>
-            <td>
-            <span className = "db-review"> Review </span>
-            </td> 
-            <td>
-            <span className = "db-pr"> 4 </span>
-            </td> 
-            <td>
-            <span className = "db-pr"> 300 </span> 
-            </td> 
-            <td>
-            <span className = "db-pr"> 1700 </span>
+            <div className = "db-pr"> 1700 </div>
             </td>
             </tr> 
             </tbody> 
