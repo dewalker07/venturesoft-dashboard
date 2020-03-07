@@ -35,9 +35,9 @@ import '../project.css';
 import './sampling.css';
 
 
-import PmSamplingHeader from './PmSamplingHeader';
+import SupervisorSamplingHeader from './SupervisorSamplingHeader';
 
-class PmSampling extends Component {
+class SupervisorSampling extends Component {
     constructor(props) {
         super(props);
 
@@ -80,7 +80,7 @@ class PmSampling extends Component {
 
             <div className = "animated fadeIn" >
             <Header />
-            <PmSamplingHeader />
+            <SupervisorSamplingHeader />
             
            <div className="gr-message"></div>
 
@@ -285,4 +285,4 @@ class PmSampling extends Component {
     }
 }
 
-export default PmSampling;
+export default SupervisorSampling;

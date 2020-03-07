@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Badge,
   Button,
@@ -79,7 +80,7 @@ class ReportSupervisor extends Component {
                   <tr>
                    
                     <td>
-                      <div>Project X</div>
+                      <div><Link to="/production/reports">Project X</Link></div>
                     </td>
                     <td>
                       <span className = "db-pr">XXXXX</span>

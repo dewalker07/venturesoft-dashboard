@@ -18,6 +18,8 @@ import Reviewx from './components/Set1/Project/Reviewx';
 import DashboardTwo from './components/Set2/Dashboard/DashboardTwo';
 import ProjectSupervisor from './components/Set2/Project/Project';
 import ReportSupervisor from './components/Set2/Reports/Report';
+import ProductionReport from './components/Set2/Reports/ProductionReport';
+import ReviewerReport from './components/Set2/Reports/ReviwerReport';
 import User from './components/Set2/Users/User';
 import CreateUser from './components/Set2/Users/CreateUser';
 import UserManage from './components/Set2/Users/UserManage';
@@ -37,8 +39,9 @@ import Overview from './components/Set2/Project/Overview';
 import SupervisorOverview from './components/Set2/Project/SupervisorOverview';
 import AgentOverview from './components/Set2/Project/AgentOverview';
 import ReviewerOverview from './components/Set2/Project/ReviewerOverview';
-
 import Tasks from './components/Set2/Project/Tasks';
+import SupervisorSampling from './components/Set2/Project/Sampling/SupervisorSampling';
+import SupervisorView from './components/Set2/Project/View/SupervisorView';
 
 import DashboardThree from './components/Set3/Dashboard/DashboardThree';
 import PmSupervisor from './components/Set3/Dashboard/Supervisor';
@@ -66,6 +69,7 @@ import Output from './components/Set3/SetupProject/Output';
 import Api from './components/Set3/SetupProject/Api';
 import SeedUpload from './components/Set3/SetupProject/SeedUpload';
 import PmSampling from './components/Set3/Project/Sampling/PmSampling';
+import PmView from './components/Set3/Project/View/View';
 
 import './App.css';
 
@@ -91,6 +95,8 @@ function App() {
               <Route exact path="/supervisor" name="DashboardTwo" component={DashboardTwo} />
               <Route exact path="/project/supervisor" name="ProjectSupervisor" component={ProjectSupervisor} />
               <Route exact path="/report/supervisor" name="ReportSupervisor" component={ReportSupervisor} />
+              <Route exact path="/production/reports" name="ProductionReport" component={ProductionReport} />
+              <Route exact path="/reviews/reports" name="ReviewerReport" component={ReviewerReport} />
               <Route exact path="/users" name="User" component={User} />
               <Route exact path="/create/user" name="CreateUser" component={CreateUser} />
               <Route exact path="/usermanage" name="UserManage" component={UserManage} />
@@ -111,6 +117,8 @@ function App() {
               <Route exact path="/overview/agent" name="AgentOverview" component={AgentOverview} />
               <Route exact path="/overview/reviewer" name="ReviewerOverview" component={ReviewerOverview} />
               <Route exact path="/tasks" name="Tasks" component={Tasks} />
+              <Route exact path="/supervisor/sampling" name="SupervisorSampling" component={SupervisorSampling} />
+              <Route exact path="/supervisor/view" name="SupervisorView" component={SupervisorView} />
 
 
               <Route exact path="/projectmanager" name="DashboardThree" component={DashboardThree} />
@@ -139,6 +147,7 @@ function App() {
               <Route exact path="/api" name="Api" component={Api} />
               <Route exact path="/seedupload" name="SeedUpload" component={SeedUpload} />
               <Route exact path="/pm/sampling" name="PmSampling" component={PmSampling} />
+              <Route exact path="/pm/view" name="PmView" component={PmView} />
             </Switch>
       </HashRouter>
     </div>

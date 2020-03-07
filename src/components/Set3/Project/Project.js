@@ -107,7 +107,7 @@ class ProjectPM extends Component {
                       <span className = "db-pr"><Link to="/pm/sampling">Sampling</Link></span>
                     </td>
                     <td>
-                      <span className = "db-pr">View</span>
+                      <span className = "db-pr"><Link to="/pm/view">View</Link></span>
                     </td>
                     <td>
                         <div><Switch /></div>

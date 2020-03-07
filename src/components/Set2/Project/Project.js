@@ -97,10 +97,10 @@ class ProjectSupervisor extends Component {
                       <span className = "db-pr"><Link to="/tasks">Task</Link></span>
                     </td>
                     <td>
-                      <span className = "db-pr">Sampling</span>
+                      <span className = "db-pr"><Link to="/supervisor/sampling">Sampling</Link></span>
                     </td>
                     <td>
-                      <span className = "db-pr">View</span>
+                      <span className = "db-pr"><Link to="/supervisor/view">View</Link></span>
                     </td>
                     <td>
                       <span className = "db-pr">PRX</span>

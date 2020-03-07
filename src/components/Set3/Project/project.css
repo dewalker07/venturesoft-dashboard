@@ -165,11 +165,6 @@
   background-color: #38a1ff;
 }
 
-.btn-cancel {
-  background-color: #fff;
-  color: #38a1ff;
-  border: 1px solid #38a1ff;
-}
 .has-taskid .form-control {
   padding-left: 2.375rem;
   font-size: 16px;
@@ -196,7 +191,18 @@
 }
 
 .MuiSvgIcon-root { 
-  margin-left: 30%;
+  margin-left: 4%;
   cursor: pointer;
 }
 
+.ou-progress {
+  display: block !important;
+}
+
+.select label {
+  margin-top: 1px;
+}
+
+.select-all label{
+  margin-top: 10px;
+}

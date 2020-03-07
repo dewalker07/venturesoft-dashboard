@@ -1,0 +1,13 @@
+.btn_download_csv {
+    padding: 12px 12px 12px 12px;
+    /* margin-left: 13px; */
+    max-width: 223px;
+    background: #38a1ff;
+}
+
+.btn_archieve {
+    background-color: #fff;
+    color: #38a1ff;
+    border: 1px solid #38a1ff;
+    margin-left: 16px;
+}

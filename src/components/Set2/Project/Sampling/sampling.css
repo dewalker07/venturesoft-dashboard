@@ -1,0 +1,27 @@
+.styles_closeButton__20ID4 {
+    position: absolute;
+    top: -33px;
+    right: -14px;
+    border: none;
+    padding: 0;
+    background-color: #ffffffdb;
+    display: flex;
+    border-radius: 16px;
+}
+
+.sample_create_tasks {
+    border: 1px solid #80808069;
+    padding: 6px 49px 6px 14px;
+    border-radius: 6px;
+}
+
+.btn-cancel {
+    background-color: #fff;
+    color: #38a1ff;
+    border: 1px solid #38a1ff;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .sample_id {
+      font-size: 16px;
+  }

@@ -30,3 +30,11 @@
   .rep-table tbody tr:first-child td {
     border-top: none;
   }
+
+  .pr-report {
+    border-bottom: 1px solid #80808042;
+    background-color: #00800014;
+  }
+  .sample-flex {
+    padding: 8px 24px 8px 34px !important;
+  }
