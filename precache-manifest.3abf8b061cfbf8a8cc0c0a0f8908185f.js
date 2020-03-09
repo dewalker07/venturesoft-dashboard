@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c262909b7f0e457ccfecd05a1f55686d",
+    "revision": "db1b06dfadbd1f1ff8e60b1a135cf987",
     "url": "/venturesoft-dashboard/index.html"
   },
   {
-    "revision": "f41aea8b3076bd3b9823",
+    "revision": "732272cb172878fbb3f2",
     "url": "/venturesoft-dashboard/static/css/main.386e7088.chunk.css"
   },
   {
-    "revision": "06aeb711a196a3d5ae9e",
-    "url": "/venturesoft-dashboard/static/js/2.e452f8a4.chunk.js"
+    "revision": "0e53fb61a382a6983ef3",
+    "url": "/venturesoft-dashboard/static/js/2.55fcc2a5.chunk.js"
   },
   {
     "revision": "e2e338faca1a0ff15643f9100df2b490",
-    "url": "/venturesoft-dashboard/static/js/2.e452f8a4.chunk.js.LICENSE.txt"
+    "url": "/venturesoft-dashboard/static/js/2.55fcc2a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f41aea8b3076bd3b9823",
-    "url": "/venturesoft-dashboard/static/js/main.e17bdea4.chunk.js"
+    "revision": "732272cb172878fbb3f2",
+    "url": "/venturesoft-dashboard/static/js/main.ee601ec3.chunk.js"
   },
   {
     "revision": "075952317a98fd0c446f",
