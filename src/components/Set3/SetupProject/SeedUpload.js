@@ -55,7 +55,7 @@ class SeedUpload extends React.Component {
             <div className="form-row">
             <div className="col-3"></div>
             <div className="col-6">
-              <label className="input_name_url">Input Name,url </label>
+              <label className="input_name_url">Input <br /><br /> Name,url </label>
               <div className="form-group has-search">
                  <div className="fa fa-paperclip form-control-feedback"></div>
                   <div className="upload-input"><input type="text" className="form-control" placeholder="Attachfile" />
