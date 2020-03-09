@@ -28,7 +28,7 @@ import Header from '../Header/Header';
 import './project.css';
 import SupervisorTaskHeader from './SupervisorTaskHeader';
 
-class Tasks extends Component {
+class SupervisorReviewerTask extends Component {
     constructor(props) {
         super(props);
 
@@ -65,10 +65,10 @@ class Tasks extends Component {
             <Navbar expand="md">
               <Nav className="d-md-down-none" navbar>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="/overview" activeClassName="active" className="nav-link">Overview</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmoverview/supervisor" activeClassName="active" className="nav-link">Overview</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link" >Tasks</NavLink>
+                  <NavLink tag={RRNavLink} to="/pmtasks/reviewer" activeClassName="active" className="nav-link" >Tasks</NavLink>
                 </NavItem>
                 </Nav>
            </Navbar>
@@ -231,4 +231,4 @@ class Tasks extends Component {
     }
 }
 
-export default Tasks;
+export default SupervisorReviewerTask;

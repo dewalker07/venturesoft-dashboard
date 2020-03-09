@@ -41,6 +41,8 @@ import SupervisorOverview from './components/Set2/Project/SupervisorOverview';
 import AgentOverview from './components/Set2/Project/AgentOverview';
 import ReviewerOverview from './components/Set2/Project/ReviewerOverview';
 import Tasks from './components/Set2/Project/Tasks';
+import SupervisorAgentTask from './components/Set2/Project/SupervisorAgentTask';
+import SupervisorReviewerTask from './components/Set2/Project/SupervisorReviewerTask';
 import SupervisorSampling from './components/Set2/Project/Sampling/SupervisorSampling';
 import SupervisorView from './components/Set2/Project/View/SupervisorView';
 
@@ -73,6 +75,7 @@ import PmSampling from './components/Set3/Project/Sampling/PmSampling';
 import PmView from './components/Set3/Project/View/View';
 
 import './App.css';
+
 
 
 function App() {
@@ -118,7 +121,9 @@ function App() {
               <Route exact path="/overview/supervisor" name="SupervisorOverview" component={SupervisorOverview} />
               <Route exact path="/overview/agent" name="AgentOverview" component={AgentOverview} />
               <Route exact path="/overview/reviewer" name="ReviewerOverview" component={ReviewerOverview} />
-              <Route exact path="/tasks" name="Tasks" component={Tasks} />
+              <Route exact path="/supervisortasks" name="Tasks" component={Tasks} />
+              <Route exact path="/supervisortasks/agent" name="SupervisorAgentTask" component={SupervisorAgentTask} />
+              <Route eaxct path="/supervisortasks/reviewer" name="SupervisorReviewerTask" component={SupervisorReviewerTask} />
               <Route exact path="/supervisor/sampling" name="SupervisorSampling" component={SupervisorSampling} />
               <Route exact path="/supervisor/view" name="SupervisorView" component={SupervisorView} />
 
