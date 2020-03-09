@@ -58,3 +58,18 @@
 .annotation {
     margin-bottom: 12px;
 }
+
+.upload-input {
+    display: flex;
+}
+
+.btn-upload {
+    padding: 8px 20px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.input_name_url {
+    margin-left: 52px;
+    margin-right: 52px;
+}

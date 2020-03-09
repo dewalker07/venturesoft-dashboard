@@ -81,7 +81,7 @@ class Tasks extends Component {
             <thead>
             <tr>
             <th> Production </th> 
-            <th>  <FormikDatePicker /> </th> 
+            <th> <FormikDatePicker /> </th> 
             </tr> 
             </thead>
             <tbody>

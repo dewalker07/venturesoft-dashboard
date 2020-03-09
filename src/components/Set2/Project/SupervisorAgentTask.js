@@ -73,9 +73,8 @@ class SupervisorAgentTask extends Component {
                 </Nav>
            </Navbar>
 
-           <div className="gr-message"></div>
-            
-        
+        <div className="gr-message"></div>
+
         <div className = "table-data">
             <table className="table task-table">
             <thead>
