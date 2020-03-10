@@ -95,7 +95,7 @@ class Dashboard extends Component {
                           <strong>76.3%</strong>
                         </div>
                       </div>
-                      <Progress className="progress-xs" color="success" value="50" />
+                      <Progress className="progress-xs" color="success" value="76.3" />
                     </td>
                   </tr>
                   <tr>
@@ -114,127 +114,128 @@ class Dashboard extends Component {
                           <strong>46.6%</strong>
                         </div>
                       </div>
-                      <Progress className="progress-xs" color="success" value="50" />
+                      <Progress className="progress-xs" color="success" value="46.6" />
                     </td>
                   </tr>
+
                   <tr>
                    
-                    <td>
-                      <div>Project X</div>
-                    </td>
-                    <td>
-                      <div>9852</div>
-                    </td>
-                    <td>
-                      <div>7520</div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-left">
-                          <strong>76.3%</strong>
-                        </div>
-                      </div>
-                      <Progress className="progress-xs" color="success" value="50" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div>Project Y</div>
-                    </td>
-                    <td>
-                      <div>6547</div>
-                    </td>
-                    <td>
-                      <div>3052</div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-left">
-                          <strong>46.6%</strong>
-                        </div>
-                      </div>
-                      <Progress className="progress-xs" color="success" value="50" />
-                    </td>
-                  </tr>
-                  <tr>
+                   <td>
+                     <div>Project X</div>
+                   </td>
+                   <td>
+                     <div>9852</div>
+                   </td>
+                   <td>
+                     <div>7520</div>
+                   </td>
+                   <td>
+                     <div className="clearfix">
+                       <div className="float-left">
+                         <strong>76.3%</strong>
+                       </div>
+                     </div>
+                     <Progress className="progress-xs" color="success" value="76.3" />
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>
+                     <div>Project Y</div>
+                   </td>
+                   <td>
+                     <div>6547</div>
+                   </td>
+                   <td>
+                     <div>3052</div>
+                   </td>
+                   <td>
+                     <div className="clearfix">
+                       <div className="float-left">
+                         <strong>46.6%</strong>
+                       </div>
+                     </div>
+                     <Progress className="progress-xs" color="success" value="46.6" />
+                   </td>
+                 </tr>
+                 <tr>
                    
-                    <td>
-                      <div>Project X</div>
-                    </td>
-                    <td>
-                      <div>9852</div>
-                    </td>
-                    <td>
-                      <div>7520</div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-left">
-                          <strong>76.3%</strong>
-                        </div>
-                      </div>
-                      <Progress className="progress-xs" color="success" value="50" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div>Project Y</div>
-                    </td>
-                    <td>
-                      <div>6547</div>
-                    </td>
-                    <td>
-                      <div>3052</div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-left">
-                          <strong>46.6%</strong>
-                        </div>
-                      </div>
-                      <Progress className="progress-xs" color="success" value="50" />
-                    </td>
-                  </tr>
-                  <tr>
+                   <td>
+                     <div>Project X</div>
+                   </td>
+                   <td>
+                     <div>9852</div>
+                   </td>
+                   <td>
+                     <div>7520</div>
+                   </td>
+                   <td>
+                     <div className="clearfix">
+                       <div className="float-left">
+                         <strong>76.3%</strong>
+                       </div>
+                     </div>
+                     <Progress className="progress-xs" color="success" value="76.3" />
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>
+                     <div>Project Y</div>
+                   </td>
+                   <td>
+                     <div>6547</div>
+                   </td>
+                   <td>
+                     <div>3052</div>
+                   </td>
+                   <td>
+                     <div className="clearfix">
+                       <div className="float-left">
+                         <strong>46.6%</strong>
+                       </div>
+                     </div>
+                     <Progress className="progress-xs" color="success" value="46.6" />
+                   </td>
+                 </tr>
+                 <tr>
                    
-                    <td>
-                      <div>Project X</div>
-                    </td>
-                    <td>
-                      <div>9852</div>
-                    </td>
-                    <td>
-                      <div>7520</div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-left">
-                          <strong>76.3%</strong>
-                        </div>
-                      </div>
-                      <Progress className="progress-xs" color="success" value="50" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div>Project Y</div>
-                    </td>
-                    <td>
-                      <div>6547</div>
-                    </td>
-                    <td>
-                      <div>3052</div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-left">
-                          <strong>46.6%</strong>
-                        </div>
-                      </div>
-                      <Progress className="progress-xs" color="success" value="50" />
-                    </td>
-                  </tr>
-                  
+                   <td>
+                     <div>Project X</div>
+                   </td>
+                   <td>
+                     <div>9852</div>
+                   </td>
+                   <td>
+                     <div>7520</div>
+                   </td>
+                   <td>
+                     <div className="clearfix">
+                       <div className="float-left">
+                         <strong>76.3%</strong>
+                       </div>
+                     </div>
+                     <Progress className="progress-xs" color="success" value="76.3" />
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>
+                     <div>Project Y</div>
+                   </td>
+                   <td>
+                     <div>6547</div>
+                   </td>
+                   <td>
+                     <div>3052</div>
+                   </td>
+                   <td>
+                     <div className="clearfix">
+                       <div className="float-left">
+                         <strong>46.6%</strong>
+                       </div>
+                     </div>
+                     <Progress className="progress-xs" color="success" value="46.6" />
+                   </td>
+                 </tr>
+                 
                   
                   </tbody>
                 </table>
