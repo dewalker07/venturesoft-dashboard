@@ -67,7 +67,7 @@ class ReviewerOverview extends Component {
                   <NavLink tag={RRNavLink} to="/overview" activeClassName="active" className="nav-link">Overview</NavLink>
                 </NavItem>
                 <NavItem className="px-3">
-                  <NavLink tag={RRNavLink} to="#" activeClassName="active" className="nav-link" >Tasks</NavLink>
+                  <NavLink tag={RRNavLink} to="/supervisortasks" activeClassName="active" className="nav-link" >Tasks</NavLink>
                 </NavItem>
                 </Nav>
            </Navbar>
