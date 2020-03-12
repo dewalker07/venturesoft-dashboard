@@ -78,7 +78,6 @@ class Project extends Component {
                   </thead>
                   <tbody>
                   <tr>
-                   
                     <td>
                       <div><Link className="pr-1" to="/production">Project X</Link></div>
                     </td>
@@ -94,7 +93,6 @@ class Project extends Component {
                     
                   </tr>
                   <tr>
-                   
                    <td>
                      <div>Project Y</div>
                    </td>
@@ -110,7 +108,6 @@ class Project extends Component {
                    
                  </tr>
                  <tr>
-                   
                    <td>
                      <div>Project Z</div>
                    </td>
@@ -126,7 +123,6 @@ class Project extends Component {
                    
                  </tr>
                  <tr>
-                   
                    <td>
                      <div>Project X</div>
                    </td>
@@ -155,10 +151,8 @@ class Project extends Component {
                   <td>
                     <div>PRY</div>
                   </td>
-                  
                 </tr>
                 <tr>
-                  
                   <td>
                     <div>Project Z</div>
                   </td>
@@ -171,13 +165,9 @@ class Project extends Component {
                   <td>
                     <div>PRZ</div>
                   </td>
-                  
                 </tr>
-                 
-                 
-                 
+
                 <tr>
-                   
                    <td>
                      <div>Project X</div>
                    </td>
@@ -190,10 +180,9 @@ class Project extends Component {
                    <td>
                      <div>PRX</div>
                    </td>
-                   
                  </tr>
+
                  <tr>
-                  
                   <td>
                     <div>Project Y</div>
                   </td>
@@ -206,10 +195,9 @@ class Project extends Component {
                   <td>
                     <div>PRY</div>
                   </td>
-                  
                 </tr>
+
                 <tr>
-                  
                   <td>
                     <div>Project Z</div>
                   </td>
@@ -222,12 +210,10 @@ class Project extends Component {
                   <td>
                     <div>PRZ</div>
                   </td>
-                  
                 </tr>
                   </tbody>
                 </table>
-                </div>
-              
+                </div>  
       </div>
     );
   }
