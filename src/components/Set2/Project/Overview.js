@@ -259,8 +259,6 @@ class Overview extends Component {
             </tbody> 
             </table> 
             </div>
-
-            
             </div>
         );
     }
