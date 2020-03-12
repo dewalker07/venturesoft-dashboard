@@ -79,7 +79,6 @@ class Dashboard extends Component {
                   </thead>
                   <tbody>
                   <tr>
-                   
                     <td>
                       <div>Project X</div>
                     </td>
@@ -197,7 +196,6 @@ class Dashboard extends Component {
                    </td>
                  </tr>
                  <tr>
-                   
                    <td>
                      <div>Project X</div>
                    </td>
@@ -235,12 +233,9 @@ class Dashboard extends Component {
                      <Progress className="progress-xs" color="success" value="46.6" />
                    </td>
                  </tr>
-                 
-                  
                   </tbody>
                 </table>
                 </div>
-              
       </div>
     );
   }
