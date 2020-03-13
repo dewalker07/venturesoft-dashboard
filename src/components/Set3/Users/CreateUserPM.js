@@ -183,6 +183,7 @@ class CreateUserPM extends React.Component {
                         <div className="col-6">
                             <label htmlFor="role" className="col-form-label">Role</label>
                             <Field
+                                className="create-user-radio"
                                 name="radioGroup"
                                 options={["Production Agent", "Review Agent", "Supervisor", "Project Manager / Admin"]}
                                 component={FormikRadioGroup}

@@ -35,3 +35,7 @@
 .MuiFormGroup-root {
     margin-left: 12px;
 }
+
+.create-user-radio {
+    display: flex !important;
+}
