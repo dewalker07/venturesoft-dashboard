@@ -230,12 +230,9 @@ class PmView extends Component {
                         <span><Checkbox className="select" /></span>
                     </td>
                 </tr>
-
-                
             </tbody>
             </table> 
             </div>
-
             </Form>
                 )}
             </Formik>
