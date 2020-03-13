@@ -78,10 +78,10 @@ class ReviewerOverview extends Component {
             <table className="table so-table">
             <thead>
             <tr>
-            <th> Step </th> 
-            <th> No Of agents </th> 
-            <th> Tasks Completed </th> 
-            <th> Tasks Available </th> 
+            <th>Step</th> 
+            <th>No Of agents</th> 
+            <th>Tasks Completed</th> 
+            <th>Tasks Available</th> 
             </tr> 
             </thead>
             <tbody>
