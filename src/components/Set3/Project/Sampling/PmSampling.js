@@ -106,7 +106,7 @@ class PmSampling extends Component {
         <Form>
             <div className = "table-data">
             <div className="task-row">
-            <div className="form-row">
+            <div className="form-row pd-12">
                 <div className="col-3">
                 <div className="form-group has-taskid">
                   <span className="fa fa-search form-control-feedback"></span>

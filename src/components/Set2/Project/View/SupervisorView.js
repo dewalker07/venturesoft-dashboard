@@ -115,7 +115,7 @@ class SupervisorView extends Component {
                   </div>
                 </div>
                 </div>
-                <div className="col-5 sample-flex">
+                <div className="col-4 sample-flex">
                     <div className="sample-flex">
                         <span>From</span> <FormikDatePicker />
                     </div>
@@ -123,7 +123,7 @@ class SupervisorView extends Component {
                         <span>To</span> <FormikDatePicker />
                     </div>
                 </div>
-                <div className="col-1">
+                <div className="col-2">
                     <h4 className="status">Status</h4>
                 </div>
                 <div className="col-2">

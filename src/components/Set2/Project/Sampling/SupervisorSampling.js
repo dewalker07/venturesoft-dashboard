@@ -106,14 +106,14 @@ class SupervisorSampling extends Component {
         <Form>
             <div className = "table-data">
             <div className="task-row">
-            <div className="form-row">
+            <div className="form-row pd-12">
                 <div className="col-3">
                 <div className="form-group has-taskid">
                   <span className="fa fa-search form-control-feedback"></span>
                   <input type="text" className="form-control" placeholder="Task ID" />
                 </div>
                 </div>
-                <div className="col-5 sample-flex">
+                <div className="col-6 sample-flex">
                     <div className="sample-flex">
                         <span>From</span> <FormikDatePicker />
                     </div>
@@ -121,7 +121,7 @@ class SupervisorSampling extends Component {
                         <span>To</span> <FormikDatePicker />
                     </div>
                 </div>
-                <div className="col-2">
+                <div className="col-1">
                     <h4 className="status">Status</h4>
                 </div>
                 <div className="col-2">
