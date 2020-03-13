@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fccf8263baad48b1c9c0ab4ba463a065",
+    "revision": "8ca5f06bda3e3165d669b5c45b366c3d",
     "url": "/venturesoft-dashboard/index.html"
   },
   {
-    "revision": "91ea5ef147d09f5f73c7",
+    "revision": "7ab305c0bb7839b9c155",
     "url": "/venturesoft-dashboard/static/css/main.6af36d36.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/venturesoft-dashboard/static/js/2.55fcc2a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91ea5ef147d09f5f73c7",
-    "url": "/venturesoft-dashboard/static/js/main.a9e2b483.chunk.js"
+    "revision": "7ab305c0bb7839b9c155",
+    "url": "/venturesoft-dashboard/static/js/main.f176dfa7.chunk.js"
   },
   {
     "revision": "075952317a98fd0c446f",
