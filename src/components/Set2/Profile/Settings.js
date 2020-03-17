@@ -116,7 +116,7 @@ class SupervisorSettings extends React.Component {
                             options={["Enable", "Disable"]}
                             component={FormikRadioGroup}
                         />
-                        <div><button className="reset">Reset</button></div>
+                        <div><button type="reset" className="reset">Reset</button></div>
                         </div>
                        <div className="form-row">
                         <div className="col-6">

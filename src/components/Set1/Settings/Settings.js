@@ -77,7 +77,7 @@ class Settings extends React.Component {
                 >
                 {({ values, errors, handleSubmit, handleChange, handleBlur }) => {
                     return (
-                    <form onSubmit={handleSubmit}>
+                    <Form onSubmit={handleSubmit}>
                         <label htmlFor="passowrd">New Password</label>
                         <input
                         type="password"
@@ -111,9 +111,11 @@ class Settings extends React.Component {
                             options={["Enable", "Disable"]}
                             component={FormikRadioGroup}
                         />
-                        <div><button className="reset">Reset</button></div>
+                        <div>
+                          <button type="reset" className="reset">Reset</button>
                         </div>
-                    </form>
+                        </div>
+                    </Form>
                     );
                 }}
                 </Formik>
