@@ -241,7 +241,6 @@ class UsersPM extends Component {
                        <span className="pr-user">Manage</span>
                    </td>
                    </tr>
-                  
                   </tbody>
                 </table>
                 </div>
